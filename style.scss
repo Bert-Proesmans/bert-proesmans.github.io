@@ -252,6 +252,11 @@ nav {
 }
 
 .post {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
