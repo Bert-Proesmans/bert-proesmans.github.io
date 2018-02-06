@@ -3,7 +3,8 @@ layout: post
 title: Creating a procedural macro in Rust Pt. 1
 ---
 
-Procedural macros are relatively new and you'll definitely encounter some issues. 
+Procedural macros are relatively new. Because of that it's quite possible you'll
+encounter a few compilation errors. 
 Normally, in Rust, the compiler helps you out effortlessly, but the lack of properly 
 understanding macro hygiëne and token spanning will result in confusing errors anyway.  
 I took the leap and wrote my own procedural macro, which is now released on
@@ -24,9 +25,9 @@ Cargo tool.
 # Starting off
 
 A procedural macro must reside in it's **own crate**. This 'macro-crate' is only allowed to export macros 
-and that feels already counter-intuitive. Right off the bat we need to work around
-this structural limitation by declaring two crates; One for all our macros and One for dependant types.
-For simplicity we'll call them 'crate M' and 'crate T' respectively.  
+and that's, in my opinion, already an unusual constraint. Right off the bat we need to work around
+this structural limitation by declaring two crates; 1 for all our macros and 1 for dependant types.
+Let us call them 'crate M' and 'crate T' respectively.  
 The crate containing your application code, which we'll call 'crate A', will have both crate M and T as dependancy.  
 *DO NOT* make the macro crates dependant on each other or your application crate, these links will result
 in compilation errors because of circular dependancies. When necessary we can make additional dependancy
@@ -40,22 +41,19 @@ Building a procedural macro crate is quite simple. Inside the `Cargo.toml` file 
 proc-macro = true
 ```
 
-Note that this build target is responsible for the additional constraints on what we can export from that crate.
-
 # Procedural macro template
 
-Throughout this post I'll use procedural macro, procedural macro 
-attribute and macro method interchangeably and I want to clarify these expressions beforehand.  
-A procedural macro is essentially a compiler extension which allows for automatic code generation, constraints
-checking and more. Since it's completely written in Rust itself you could even let it make API calls to a
-web-server.. Possibilites are endless.  
+Throughout this post I'll use the terms 'procedural macro', 'procedural macro attribute' and 'macro method' so I'd like to take a moment first and explain each of them.  
+A procedural **Macro** is essentially a compiler extension which you can write yourself in Rust code. These macros
+allows for automatic code generation, constraints checking and more. Since it's "just Rust code" you can make
+it do anything by utilising the standard library or external crates. Possibilites are endless.  
 A procedural macro **Attribute** is a kind of procedural macro which is invoked using a specific syntax. These
-macros are attributed to your Rust code and will interact with it.  
+macros are attributed to your Rust code and will interact with, or rather manipulate, that code.  
 A macro **Method** is the method called by the Rust compiler when a procedural macro is *resolved* (or called).
-These methods contain the logic of a macro and communicate with the Rust compiler.
+These methods communicate with the Rust compiler and contain the logic of a macro.
 
-For now we'll only focus on the crate which we marked with `proc-macro = true`, crate M. The intention is to export our 
-newly created macro at the root of the crate.
+For now we'll only focus on the crate which we marked with `proc-macro = true`, crate M. We'll start by declaring
+and exporting our own procedural macro attribute at the root of that crate.
 Consider the following code:
 
 ```rust
@@ -72,33 +70,36 @@ pub fn value_from_type(args: TokenStream, input: TokenStream) -> TokenStream {
 }
 ```
 
-That's already a lot to process, so we'll start with the first line `#![feature(proc_macro)]`. This indicates to 
-the compiler that we want to enable the 
-[procedural macro feature](https://doc.rust-lang.org/unstable-book/language-features/proc-macro.html), **BOTH** the
-procedural macro crate **AND** the application crate **MUST** have this feature enabled for the macro to work.
+That's a minimal code to get started writing a macro, let's explain what each line does.  
+`#![feature(proc_macro)]` indicates to the compiler that we want to enable the 
+[procedural macro feature](https://doc.rust-lang.org/unstable-book/language-features/proc-macro.html).  
+Note that **BOTH** the procedural macro crate **AND** the application crate **MUST** have this feature 
+enabled for the macro to work.
 
 > Following the above link will guide you to the -Unstable Book- containing lots of information about nightly
 > compiler features. It's a good read for more advanced Rustaceans.
 
 The next lines, starting with `extern crate`, should be obvious. We explicitly import our dependancy crates
-to be used in our own code. The `use` statement simply re-imports the TokenStream item into our current module.
-Here-after the actual macro code follows.
+to be used in our own code. In this case the crate 'proc_macro' is imported, which is made available by the 
+compiler because we're targetting to build a procedural macro.  
+The `use` statement simply re-imports the TokenStream item into our current module.
 
 Our macro is called `value_from_type`, which matches the identifier of the method exactly. This is important
-because there is **NO** other way to name our procedural macro. It's attribute `#[proc_macro_attribute]` registers
-the method, so it can be called when the attribute must *resolve*.  
-The method takes two arguments, both typed `TokenStream`, which is the prototype for each proc macro attribute.
-`args` contains the arguments passed into the attribute call. `input` contains code from the subject, this is 
-the item on which the attribute is invoked.
+because there is **NO** other way to name our procedural macro.  
+It's attribute `#[proc_macro_attribute]` registers the method, so it's called when the attribute is *resolved*.  
+The method takes two arguments, both typed `TokenStream`, which is an agreed upon interface for each procedural
+macro attribute. `args` contains the arguments passed into the attribute call. `input` contains code from 
+the subject, this is the code attached to the attribute.
 
-This macro method does exactly one thing, printing to the standard outstream when it's invoked. That message will be
-printed onto the compilation log when you're using this macro inside your application crate.
+This macro method does exactly one thing, printing to the standard outstream when it's executed. You'll see 
+this message printed by the compiler, on the standard outstream, when the procedural macro attribute is 
+used within application code.
 
 ## Attribute arguments 
 
 Procedural macro attributes are attached to [Items](https://docs.rs/syn/0.12/syn/enum.Item.html). Note that Item is 
-used here in syntactic context. A struct, enum or method are Items, even a module like the example below.  
-When attaching an attribute to an Item it's possible to pass it one or more arguments. The arguments could be anything
+used here in syntactic context. A Struct, Enum or Method are Items, even a Module like the example below.  
+When attaching an attribute to an Item you can pass it one or more arguments. The arguments could be anything
 actually because we're responsible of parsing them ourselves.  
 Taking it to the extreme we could even write Rust code as an argument to our attribute macro!
 
@@ -110,30 +111,31 @@ mod item_mod {}
 // Here we are calling the macro value_from_type with arguments `"1=Monkey | name=Barry"`
 // 
 // Note the difference in attribute placement, this form is equivalent to the previous example
-// but here we used an INNER ATTRIBUTE
+// but here we used an INNER ATTRIBUTE.
 mod item_mod_2 {
-    #![value_from_type("1=Monkey | name=Barry")]
+	// Note '#!' at the start of the line
+    #![value_from_type(1=Monkey | name=Barry)]
 }
 ```
 
-As you can see anything can be passed down as argument.  
-Note however, the Rust compiler will also run a syntax check on our arguments. If you want to deviate from the default
-tuple pattern (first argument example) you'll need to wrap your arguments in double quotes to make it a string.
+As you can see, anything can be passed down as argument, as long as you are able to
+parse it.
 
 ## Attribute input
 
-The input of a procedural macro attribute is the Item attached to it. The compiler will syntax check and pass the entire
-Item into the macro method. This means that the original code is effectively removed from the file during compilation.  
-It's expected from the attribute macro to transform the input and return a complete output back into the compiler. 
+The input of a procedural macro attribute is the Item attached to it. The compiler will check for syntax errors and 
+pass the entire Item into the macro method. This means that the original code is effectively removed from the
+file during compilation.  
+It's expected from the attribute macro to transform the input and return a some output back into the compiler. 
 Most of the time it's desired that the input is copied into the output.
 
-There is ONE important detail; invoked macros will be removed from the input! This is important to make sure that
+There is ONE important detail; invoked macro attributes are removed from the input! This is important to make sure that
 the macro expansion process is **finite**.
 
 ```rust
-// The attribute is linked to Item item_mod
+// Our attribute value_from_type is linked to Item item_mod
 #[value_from_type()]
-// The entire module code, including the mod keywoard and braces, is passed 
+// The entire module code, including the mod keyword and braces, is passed 
 // into the macro value_from_type as input
 // <--
     mod item_mod {
@@ -142,16 +144,37 @@ the macro expansion process is **finite**.
 // -->
 ```
 
-Here we see what's effectively being passed into the macro as input. Note that this scenario is similar when using
+This example shows what's effectively being passed into the macro as input. Note that this scenario is similar when using
 inner attributes.
 
 # Procedural macro usage
 
 Let's continue with the provided macro method example since I haven't explained what `TokenStream::empty()` means.  
 As mentioned earlier the compiler will pass down the code of the Item attached to the attribute being executed as input.
-The macro method is expected to return Rust code to replace the original code of the Item.  
-As for the example, it's actually returning nothing (= no code), which would cause all code attached to that macro
-attribute be removed during compilation.
+The macro method is expected to return Rust code to replace what was originally passed as input argument.  
+As for the example, it's actually returning nothing (= no code). This results in all attributed code to disappear during compilation.
+
+"But what is a TokenStream exactly?", you might ask. To explain this I need to start with
+how modern compilers work. As you might have figured there are a lot of steps necessary
+to transform some code into machine instructions. To not reinvent the wheel every time
+another language or system platform is built modern compilers are seperated into a
+'frontend' and 'backend' system. The frontend is responsible for processing the
+programming language and transforming it into some intermediate format. The backend will
+transform that intermediate format into the desired machine code. All components of the
+compiler are free to analyze and manipulate it's data, but operations performed on
+the intermediate code representation can be in every context easily reused.  
+The Rust compiler (rustc) is actually a frontend of the compiler system, with LLVM as
+as backend component for generating machine code. The intermediate code representation
+is LLVM IR in this case.  
+
+Back to TokenStream then, it's basically an intermediate representation between rustc
+and procedural macros. This approach of processing and returning TokenStreams was chosen
+because rustc internally makes use of these tokens because they represent the Abstract
+Syntax Tree (AST). The AST-data is produced by parsing Rust code.  
+Exposing an intermediate representation allows the rustc developers to limit exposure
+of the compiler internals to procedural macros. Allowing procedural macros to straight up
+use internal compiler code would constraint developers from making breaking changes to
+the compiler. This would break all existing procedural macros.
 
 # Building the macro
 
