@@ -1,23 +1,11 @@
-
-//
-// VARIABLES
-//
-
 // Colors
-$blue: #4183C4;
-
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
-
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$background: hsl(182, 10%, 98%) ;
+$primary: cadetblue;
+$secondary: hsl(182, 30%, 95%);
+$darkprimary: hsl(182, 25%, 30%);
+$lightprimary: hsl(182, 25%, 85%);
+$textprimary: #333;
+$textsecondary: hsl(0,0%,50%);
 
 // Mobile breakpoints
 @mixin mobile {

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Hello world!
+title: "Hello world!"
+description: "Hooray, this is the first post on my brand new blog!"
 ---
 
 Hooray, this is the first post on my brand new blog!

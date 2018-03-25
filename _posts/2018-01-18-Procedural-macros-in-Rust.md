@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Procedural macros in Rust
+title: "Procedural macros in Rust"
+description: "It's essentially you writing code which writes code for you."
 ---
 
 Sooo.. [Meta-Programming](https://en.wikipedia.org/wiki/Metaprogramming)! It's essentially you writing code which writes code for 

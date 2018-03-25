@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Creating a procedural macro in Rust Pt. 1
+title: "Creating a procedural macro in Rust Pt. 1"
+description: "Procedural macros are relatively new. Because of that it's quite possible you'll
+encounter a few compilation errors."
 ---
 
 Procedural macros are relatively new. Because of that it's quite possible you'll

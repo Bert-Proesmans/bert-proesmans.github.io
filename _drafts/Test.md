@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Test draft
+title: "Test Draft"
+description: "This is a draft post for testing"
 ---
 
 ```rust
