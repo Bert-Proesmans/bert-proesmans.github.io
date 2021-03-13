@@ -15,4 +15,4 @@ The last update happened in December 2018 which moved the website to my own doma
 I'm for sure not a student anymore, hehe.
 
 At this point in time I updated the [about-page](@/pages/about.md), website title, configuration and yeeted the Jeckyll static site framework. Basically, I made a new site...  
-At some point in the future, I'd like to do an iteration on the olde site design to bring it back. Keep an eye out for that update!
+At some point in the future, I'd like to do an iteration on the old site design to bring it back in a modern jacket. Keep an eye out for that update!
