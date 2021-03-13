@@ -1,5 +1,5 @@
 name: Bert Proesmans
-description: Computer Science Student
+description: Presence on the internet is a must?
 # Filename for image in header
 avatar: BertFace.svg
 # Links & Accounts
@@ -7,10 +7,10 @@ links:
   github: Bert-Proesmans
 
 # Google Analytics web tracking code
-google_analytics: UA-112790006-1
+# google_analytics: UA-112790006-1
 
 # Your website URL (Used for Sitemap.xml and your RSS feed)
-url: https://bert-proesmans.github.io
+url: https://proesmans.eu
 baseurl: ""
 # Permalink for posts pages
 paginate: 4
