@@ -1,8 +1,11 @@
----
-layout: post
-title: "Hello world!"
-description: "Hooray, this is the first post on my brand new blog!"
----
++++
+title = "Hello world!"
+description = "Hooray, this is the first post on my brand new blog!"
+date = 2018-01-15
+[taxonomies]
+categories = ["Odd"]
+tags = []
++++
 
 Hooray, this is the first post on my brand new blog!
 

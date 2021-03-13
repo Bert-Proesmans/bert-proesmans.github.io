@@ -1,8 +1,12 @@
----
-layout: post
-title: "Procedural macros in Rust"
-description: "It's essentially you writing code which writes code for you."
----
++++
+title = "Procedural macros in Rust"
+description = "It's essentially you writing code which writes code for you."
+date = 2018-01-18
+
+[taxonomies]
+categories = ["Rust"]
+tags = ["Procedural macros"]
++++
 
 Sooo.. [Meta-Programming](https://en.wikipedia.org/wiki/Metaprogramming)! It's essentially you writing code which writes code for 
 you.  

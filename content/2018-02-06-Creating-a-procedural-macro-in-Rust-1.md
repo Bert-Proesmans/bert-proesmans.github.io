@@ -1,12 +1,16 @@
----
-layout: post
-title: "Creating a procedural macro in Rust Pt. 1"
-description: "Procedural macros are relatively new. Because of that it's quite possible you'll
-encounter a few compilation errors."
----
++++
+title = "Creating a procedural macro in Rust Pt. 1"
+date = 2018-02-06
+
+[taxonomies]
+categories = ["Rust"]
+tags = ["Procedural macros"]
++++
 
 Procedural macros are relatively new. Because of that it's quite possible you'll
 encounter a few compilation errors. 
+<!-- more -->
+
 Normally, in Rust, the compiler helps you out effortlessly, but the lack of properly 
 understanding macro hygiëne and token spanning will result in confusing errors anyway.  
 I took the leap and wrote my own procedural macro, which is now released on
@@ -74,7 +78,7 @@ pub fn value_from_type(args: TokenStream, input: TokenStream) -> TokenStream {
 
 That's a minimal code to get started writing a macro, let's explain what each line does.  
 `#![feature(proc_macro)]` indicates to the compiler that we want to enable the 
-[procedural macro feature](https://doc.rust-lang.org/unstable-book/language-features/proc-macro.html).  
+procedural macro feature (dead link).  
 Note that **BOTH** the procedural macro crate **AND** the application crate **MUST** have this feature 
 enabled for the macro to work.
 

@@ -1,12 +1,12 @@
----
-layout: page
-title: About
-permalink: /about/
----
++++
+title = "About"
+path = "about"
+template = "about.html"
++++
 
 Who **is** Bert-Proesmans?!
 
-TLDR; I'm a computer guy, but the actual answer consists of more, and complex, words.
+TLDR; I'm a computer guy. The actual answer consists of more words, but I try to keep it light.
 
 ### Quickies
 
@@ -22,11 +22,11 @@ TLDR; I'm a computer guy, but the actual answer consists of more, and complex, w
 
 ### Long answer
 
-Without going too far back into the events that made me who I am today, the age where I built out the biggest part of my personality was between age 17 and age 20. I'll always look back at this timespan as getting #woke (old meme by now, I know). To properly contextualize me at the start of this period of my life;
+Without going too far back into the events that made me who I am today, the period where I built out the biggest part of my personality was between age 17 and age 20. I'll always look back at this timespan as getting #woke (old meme by now, I know). To properly contextualize me at the start of this period of my life;
 
 1. I've had the luxury of smart and caring parents (thanks mom and dad!) and close family,
 2. I was supported, and encouraged to take on any challenge on my path,
-3. For a long time I've lived kind of selfishly, not understanding other people and their feelings,
+3. For a long time I've lived kind of selfishly, not caring about other people and their feelings,
 4. What is a setback, I've never encountered that before?
 
 In those three years since age 17, I failed to successfully transition to the next year of high school. I had a one-year do-over, which was certainly painful for a while. In hindsight, this wasn't that bad because **I felt the importance of a good understanding of basic education**.. and **made more friends** on the way. I got my degree one year late.
@@ -55,7 +55,7 @@ Rundown;
 
 * 2006-2013: High school - Science+Mathematics,
 
-* 2013-NOPE: [Hasselt University](https://www.uhasselt.be/en) - Computer science.
+* 2013-NOPE: Hasselt University - Computer science.
 
 ### Programming projects
 
