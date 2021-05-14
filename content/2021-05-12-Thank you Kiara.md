@@ -13,7 +13,7 @@ tags = ["Hololive", "Takanashi Kiara", "Kiara Takanashi"]
 # I'm a fan of Kiara Takanashi!
 
 I'm a serious fan of [Kiara Takanashi](https://virtualyoutuber.fandom.com/wiki/Takanashi_Kiara) since December last year.  
-She's a hard-working video content creator with a warm but generally ecstatic personality. She's amazing because she thinks fondly of her fans and actively seeks out interactions whenever she's live streaming and not. She's also trilingual, sings, draws, can (supposedly) fly, and is an absolute delight to spend time with.  
+She's a hard-working video content creator with a warm but generally ecstatic personality. She's amazing because she thinks fondly of her fans and actively seeks out interactions whenever she's live streaming and not. <!-- more --> She's also trilingual, sings, draws, can (supposedly) fly, and is an absolute delight to spend time with.  
 Her digital avatar and backstory is based on the Phoenix, the mythical creature.  
 I recommend checking out her content. Keep in mind that it's considered mal-intent to spread information about her physical persona! 
 
