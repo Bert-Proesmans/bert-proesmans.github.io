@@ -10,8 +10,6 @@ categories = ["Interests"]
 tags = ["Hololive", "Takanashi Kiara", "Kiara Takanashi"]
 +++
 
-Note; This post is last updated on 2021-05-04 to improve grammar, styling, and clarification of my ideas.
-
 # I'm a fan of Kiara Takanashi!
 
 I'm a serious fan of [Kiara Takanashi](https://virtualyoutuber.fandom.com/wiki/Takanashi_Kiara) since December last year.  
@@ -68,3 +66,5 @@ I love Kiara's transparent policy about donations. She's a creator focused on in
 
 What causes trigger the creation of fans?  
 **Stay tuned for part two of this post!**
+
+Note; This post is last updated on 2021-05-14 to improve grammar, styling, and clarification of my ideas.
