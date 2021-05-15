@@ -12,7 +12,7 @@ tags = ["Hololive", "Takanashi Kiara", "Kiara Takanashi"]
 
 # I'm a fan of Kiara Takanashi!
 
-This post is a continuation of my series about [Kiara Takanashi](https://virtualyoutuber.fandom.com/wiki/Takanashi_Kiara). The [first part](@/content/2021-05-12-Thank you Kiara.md) contained some vague and unfocused amalgamation of my latest 'obsession' and my opinion about the topic itself. <!-- more -->
+This post is a continuation of my series about [Kiara Takanashi](https://virtualyoutuber.fandom.com/wiki/Takanashi_Kiara). The [first part](@2021-05-12-Thank you Kiara.md) contained some vague and unfocused amalgamation of my latest 'obsession' and my opinion about the topic itself. <!-- more -->
 The wording is stiff, and its content indicates that I've merely seen a glimpse of the magical world of true fandom. I hope to do better this time and write a piece that holds the attention of future readers. Reality and probability theory says I should practice a lot more, though.
 
 Let's attempt to dissect the more hidden in plain sight parts about being a true fan. Oh, and the gushing started with the previous installment overflowed into this one! Sorry, not sorry in advance.
@@ -58,5 +58,6 @@ There is a lot more I'd like to say about her, but I'm having trouble finding th
 Coming soon!
 
 ---
-I regularly revisit my content to look for opportunities to improve. I publish immediately for peace of mind.
-"Staging? NO! We ride or die, Sunny Boy!" - Bad idea factory
+I publish immediately for peace of mind. I regularly revisit my content to look for opportunities to improve.
+
+> "Staging? NO! We ride or die, Sunny Boy!" - Bad idea factory
