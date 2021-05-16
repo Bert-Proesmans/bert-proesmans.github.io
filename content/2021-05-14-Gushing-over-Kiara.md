@@ -3,7 +3,7 @@ title = "Gushing over Kiara (Thank you, Part 2)"
 description = "Fans don't appear out of nowhere."
 
 date = 2021-05-15
-updated = 2021-05-15
+updated = 2021-05-16
 
 [taxonomies]
 categories = ["Interests"]
@@ -52,6 +52,34 @@ In practice, I'm part of the 'Kiara the phoenix fan club'. Kiara sounds genuine 
 There is a lot more I'd like to say about her, but I'm having trouble finding the right words. It remains a sensitive topic that I don't want to popularize. I don't regret what I did while she's also happy with the outcome.
 
 > In a professional setting, people generally prefer online video meetings over a phone call. During a phone call, our eyes are providing unrelated information that lowers our focus and engagement. To counteract, we subconsciously project the person's face image on our brain, but only if we've already seen it. It's like an urge where some people can handle it better than others do.
+
+I learned from this history that I used different angles to approach the topic. As if a puzzle presented itself with a lot of open space left to connect new pieces. That puzzle is hard to solve, and it took time to find the right spot to fit myself in.  
+The topic boundaries also changed over time after I stripped more and more uninteresting parts. The reason why I'm a fan today isn't the same from day 0.
+
+1. Looking into Hololive because of a friend
+    * Hearing good things from people close to me sparks interest
+1. Looking into VTubers because it's new
+    * I'm always interested in understanding boundary-pushing events
+1. Looking into VTuber talents individually
+    * These virtual avatars come with pretty unique personalities
+1. Looking into 'backstory'
+1. Falling in 'love' with Kiara
+
+The word 'love' is special to me, an expression strictly used for romantic love. I wouldn't say that out loud willy-nilly. But it's written out regardless, and the reason was a challenge for me to figure out. After all, this is the crux of this series of posts. Every struggle up to this point has been an effort to put this feeling into proper context.  
+I understand that my strict definition of love breaks down. Not because of logic, but feelings. Nothing more incomprehensible to me than feelings, even if they are my own. Feelings are one example of life's aspects that you accept as is. Logic and reason fail to describe this thing. Talking to others about feelings revealed that they have an easier time accepting than me. I effectively struggle with acceptance at face value.
+
+As a rule, there is no understanding of feelings, not your own and not from others. There exists no logical explanation, not always. On top of that, they create external reliances.  
+People accept that without even understanding the consequences and then spread the idiom "Create your happiness". I find that idiom given the above very short-sighted. Either they don't completly understand what they're talking about or I'm not communicating on the same wavelength. Taking in a pet, for example, does not create your own happiness. You rely on the pet to be the source of happiness. Think about what happens when the pet is no more, you're worse of than before. I cannot accept that.
+
+I'm well aware this makes me sound broken, or immature at the least. If I write this all down, why do I keep living such a sour sounding life?  
+It's a choice I made for myself, with only one rule to adhere to; Don't regret afterwards. This choice works for me.  
+I believe there are others making this choice too, but only the ones that don't complain about circumstance. That's a tangent I might write out in another post.
+
+Now we reached the point where the title of this series falls into place. My journey into fandom lead to a full 180 degrees turn on my common approach to life, it's hypocritical. Being a sour person doesn't mean I'm not open to being proven wrong, in fact I love a good discussion. Sadly this experience ended up being a discussion with myself, but it bore fruit nonetheless.  
+It's because of Kiara, she's a very special person. I think of her like my polar opposite, even though I don't know her in reality. She might not even fit this description, but that's what she became in my head. A test subject in improper wording.  
+She tugged on my feelings, that's all she did... or I did to myself. In any case, the proper thing to do is thank her. At this point I should explicitly mention that loving Kiara means, to me, the same as being a serious fan. In any case she's a part of my life now and that won't change in the near future.
+
+My perspective on life changed a bit, I feel smarter than yesterday. That doesn't mean I became a changed person, but it sure as hell indicates my personality won't be the same a few years from today.
 
 ## Fans and their future
 
