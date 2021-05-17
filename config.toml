@@ -1,7 +1,7 @@
 # The site title and description; used in feeds by default.
 title = "Bert Proesmans"
 description = "Presence on the internet is a must?"
-base_url = "https://proesmans.eu"
+base_url = "https://bert.proesmans.eu"
 default_language = "en"
 theme = "even"
 
@@ -15,6 +15,7 @@ build_search_index = true
 # Defaults to "atom.xml", which has a built-in template that renders an Atom 1.0 feed.
 # There is also a built-in template "rss.xml" that renders an RSS 2.0 feed.
 feed_filename = "rss.xml"
+generate_feed = true
 
 taxonomies = [
     # You can enable/disable RSS
