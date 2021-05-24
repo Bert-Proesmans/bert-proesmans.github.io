@@ -56,28 +56,27 @@ What good did all that ivory tower talk about fighting dualism do? Pretty hypocr
 Specific points of my story must have made no sense to people living outside my imagination. First of all, good, because living in my skull entitles me to rent. I haven't seen any money transferred to my account balance yet.  
 Second, that's a bit sad. I don't wish for anyone to feel excluded.
 
-So I split myself in two, with minimal brain damage, and answered questions formulated by me. We do this FAQ-style because FAQ is LOVE.  
-I reduced the answers to a few sentences.
+So I split myself in two, with minimal brain damage, and answered questions formulated by me. We do this FAQ-style because FAQ is LOVE.
 
-1. What's wrong with you?
+1. What's wrong with you?  
 I need a hobby, it's that simple... and I need to think less. A challenging hobby solves both issues. What's left is creating commitment to my choice.
 
-1. Doesn't this mulching physically hurt?
+1. Doesn't this mulching physically hurt?  
 It's tiring for sure, but only if I want to write this all down in a coherent text.  
 So far, no neck injuries from my big brain. /s
 
-1. Isn't this just romantic love?
+1. Isn't this just romantic love?  
 Theoretically, it cannot be. I don't know Kiara at all. I do admit that this situation is very "My mind is telling me noo-ooo... but my body, my body's is telling yea-eaaaaah-es". 
 
-1. Why Kiara?
+1. Why Kiara?  
 She's very good at entertaining. So much so that I lose myself. This fact hurts my core.  
 She trespassed into my cells like a virus, wreaking havoc and altering my DNA. All my mind does is run around in circles. Isolation procedures were unsuccessful so far.
 
-1. How much are you invested for real?
+1. How much are you invested for real?  
 I don't consider myself a community person. As a general rule, I only act for selfish reasons. I'm trying to change that up, hopefully to the joy of everyone. My fan-related creative work had the purpose of improving myself. The fandom acted as a starting point of my creative process.  
 My life is not dependant on staying invested in HoloLive forever, so I can and will leave whenever I decide to.
 
-1. What do you hope will happen in the future?
+1. What do you hope will happen in the future?  
 I have never thought about that. It's up to the superstars to decide because that's part of their job.  
 As an egocentric consumer, I'm privileged to complain and leave. I sure as hell respect the people in showbusiness for that.
 
