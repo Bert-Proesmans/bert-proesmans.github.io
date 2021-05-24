@@ -2,7 +2,7 @@
 title = "My Kiara Shrine (Thank you, Part 3)"
 description = "Fans don't appear out of nowhere."
 
-date = 2021-05-24
+date = 2021-05-24T12:00:00Z
 updated = 2021-05-24
 
 [taxonomies]

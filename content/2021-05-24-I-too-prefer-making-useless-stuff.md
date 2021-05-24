@@ -2,7 +2,7 @@
 title = "I too prefer making useless stuff"
 description = "To toy or not with your projects."
 
-date = 2021-05-24
+date = 2021-05-24T18:00:00Z
 updated = 2021-05-24
 
 [taxonomies]
