@@ -18,6 +18,8 @@ The [second part](@/2021-05-14-Gushing-over-Kiara.md) describes how I got hooked
 Following is an approach to clarify what the future of fandoms entails. Conclusions come from my personal experience.  
 To clarify; It's not my goal to write this for other people's eyes, even though I gave that impression. The main reason is to fill the empty void of this domain and, secondary, to have some retrospective for my peruse.
 
+> Don't like to read that much? Check the [FAQ section](#faq) that also intends to summarize the experience a bit.
+
 ## Fans and their future
 
 Two reasons prevent me from predicting the future; Uncertainty and Unknowns. Those issues are theoretical and intangible, so I'll also explain my mini-break from HoloLive after the following technical yada-yada.
@@ -51,7 +53,7 @@ I wonder if it's out of habit, addiction, or being bored. There is no balance. I
 "Why?" is a good question. I like her very much, as explained in [part 2](@/2021-05-14-Gushing-over-Kiara.md). But I also cannot correctly moderate myself. In practice, I'm very black/white about time investment. There is no middle ground; I do or do not.  
 What good did all that ivory tower talk about fighting dualism do? Pretty hypocritical. I have too much spare time that's a given. A consequence of me taking up as few responsibilities as possible. Do I want my freedom to be constrained?
 
-## FAQ Quick-shots
+## FAQ Quick-shots {#faq}
 
 Specific points of my story must have made no sense to people living outside my imagination. First of all, good, because living in my skull entitles me to rent. I haven't seen any money transferred to my account balance yet.  
 Second, that's a bit sad. I don't wish for anyone to feel excluded.

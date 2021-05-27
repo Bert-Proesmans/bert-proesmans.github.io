@@ -17,6 +17,8 @@ The wording is stiff and barely resembles anything thoughtful at all. I've merel
 
 Anyway, I dissect the more hidden in plain sight parts about being a true fan. The gushing that started with the previous installment overflowed into this one! Sorry, not sorry in advance.
 
+> Don't like to read that much? Check the [third installment](@/2021-05-24-My-Kiara-Shrine.md) for a fun (I'd say so) FAQ section that also intends to summarize the experience a bit.
+
 ## Fans and their trigger
 
 Right off the bat, I'll come out and say that I have no clue how an average person converts into a fan. The practical circumstance is highly individualistic. It might be fruitful to philosophize about the seeding moment, so I can tell you how this thing started for me.

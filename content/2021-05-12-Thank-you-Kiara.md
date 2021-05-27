@@ -20,6 +20,8 @@ I recommend checking out her content. Keep in mind that it's considered mal-inte
 Before this experience I couldn't even comprehend what being a "fan" actually means. This post contains the result of some digging into my behavior. I intend to shine a positive light on the phenomenon.  
 As a bonus, nitwits like my former self might have found an interesting read.
 
+> Don't like to read that much? Check the [third installment](@/2021-05-24-My-Kiara-Shrine.md) for a fun (I'd say so) FAQ section that also intends to summarize the experience a bit.
+
 ## Fans and their environment
 
 I remember my niece being a serious fan of [One Direction](https://en.wikipedia.org/wiki/One_Direction), and another friend fawning over [Taylor Swift](https://en.wikipedia.org/wiki/Taylor_Swift). In theory, there is nothing wrong with this behavior. Everyone is entitled to experience an enjoyable time. Those are one of the few tools to offset the guaranteed pushbacks you'll encounter within your lifespan.
