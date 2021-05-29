@@ -1,9 +1,9 @@
 +++
-title = "I too prefer making useless stuff"
+title = "I too enjoy making useless stuff"
 description = "To toy or not with your projects."
 
 date = 2021-05-24T18:00:00Z
-updated = 2021-05-24
+updated = 2021-05-29
 
 [taxonomies]
 categories = ["Hacker News"]
