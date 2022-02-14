@@ -2,8 +2,8 @@
 title = "Calliope, the muse"
 description = "About inspiration"
 
-date = 2021-02-14
-updated = 2021-02-14
+date = 2022-02-14
+updated = 2022-02-14
 draft = false
 
 [taxonomies]
