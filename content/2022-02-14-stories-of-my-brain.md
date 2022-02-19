@@ -11,25 +11,25 @@ categories = ["Interests"]
 tags = ["Hololive", "Calliope Mori"]
 +++
 
-I've had this one thing on my mind for a year now; Write stories around Calliope Mori. Looking back on on the last year, I did just that on [reddit](0) and [twitter](1).  
+I've had this one thing on my mind for a year now; Write stories around Calliope Mori. Looking back on on the last year, I did just that on [reddit](https://www.reddit.com/r/Hololive/comments/lipjfd/kiaras_goodbye_fanfiction/) and [twitter](https://twitter.com/BertProesmans/status/1360728234158080000).  
 But those are not the stories I set out to write.
 <!-- more -->
 
 # Context
 
-[Calliope Mori, a VTuber](2), is many things.  
-To me, she is an oasis of inspiration. And that's not even one of her actual characteristics; she's a persistent worker, keeps an open mind, has street smarts, and can be an incredible *incredible* softie. Her songs and lyrics are amazing! She leads by example dropping lyrics, songs, music video's and entertaining streams. Even outside of the VTuber community she makes an enormously huge impact gathering views and listens on her work. Check out her rankings on music [streaming](3) [platforms](4) and [Youtube](5).  
+[Calliope Mori, a VTuber](https://www.youtube.com/channel/UCL_qhgtOy0dy1Agp8vkySQg), is many things.  
+To me, she is an oasis of inspiration. And that's not even one of her actual characteristics; she's a persistent worker, keeps an open mind, has street smarts, and can be an incredible *incredible* softie. Her songs and lyrics are amazing! She leads by example dropping lyrics, songs, music video's and entertaining streams. Even outside of the VTuber community she makes an enormously huge impact gathering views and listens on her work. Check out her rankings on music [streaming](https://open.spotify.com/artist/1PhE6rv0146ZTQosoPDjk8) [platforms](https://music.apple.com/us/artist/mori-calliope/1536368549/see-all?section=top-songs) and [Youtube](https://www.youtube.com/watch?v=-AuQZrUHjhg).  
 Simply showing up and sharing her work already inspired many. Or she did move atleast _me_.
 
 # Inspiration
 
-A muse is a source of inspiration, a common word and well known description. Less common, however, is the old(er) definition; A poet. The name Calliope was specifically chosen for the VTuber persona because of its link to this word, I'm sure.  
-Short Greek mythology lesson; Calliope, daughter of Zeus, was one of the ~three~ nine muses who are patron godessess of art. She received gifts from bards and men in love, mere mortals, for a glimpse of brilliance in the form of epic poetry and eloquence. Do you see the correlation, eh? She raps, epic beats, eloquent words... and sometimes profanity.  
+A muse is a source of inspiration, a common word and has a well known description. Lesser known, however, is the old(er) definition; A poet. The name Calliope was specifically chosen for the VTuber persona because of its link to this word, I'm sure.  
+Short Greek mythology lesson; Calliope, daughter of Zeus, was one of the ~~three~~ nine muses who are patron godessess of art. She received gifts from bards and men in love, mere mortals, for a glimpse of brilliance in the form of epic poetry and eloquence. Do you see the correlation, eh? She raps, epic beats, eloquent words... and sometimes profanity.  
 
-So after learning about her existence I did what any wannabe Hercules would do; Send in a Youtube superchat! In return she blessed me with mentioning my name *angelic tune playing in the background*. But for real, this century's Calliope is a badass and pumping out creative work at the speed my grandma crochets new shawls. (Super fast)  
-I'm way better off than the ancient Greek plebeian. So that got me -musing-, which is a fancy way of being absorbed into my own thoughts and pondering deeply, about knitting something of my own.
+So after learning about her existence I did what any wannabe Hercules would do; Send in a Youtube superchat! In return she blessed me with mentioning my name *angelic tune playing in the background*.  
+But for real, this century's Calliope is a badass and pumping out creative work at the speed my grandma crochets new shawls. (Super fast) I'm way better off than the ancient Greek plebeian. So that got me -musing-, which is a fancy wording of being absorbed into my own thoughts and pondering deeply, about knitting something of my own.
 
-And so, my popular phase begins! I write out my deepest feelings, my bestest quips, my... my... words are hard!  
+And just like that my popular phase begins! I write out my deepest feelings, my bestest quips, my... my... words are hard! There are still decades of hard work between me and immortality on the scale of J.R.R. Tolkien.  
 It's an ongoing process. :)
 
 # Stories
@@ -38,13 +38,13 @@ What I actually wanted to write was a longform book. Or at least 2 chapters of a
 I see a challenge in integrating the world of the living with the world beyond, dubbed the "ethereal". There must also be forbidden love of course, _wouldn't want to write a story without a bit of fanservice._
 
 I have no writing experience, however, and started out with random mumbo jumbo. On occasion I talked to people on the internet to gather ideas and feedback, that allowed me to make tiny leaps in understanding the art a bit more.  
-A year has passed since. Given the low output, it's fair to say I didn't actively put a lot of time into the cycle of practice/feedback/repeat. There is [stuff I wrote without showing anyone](6), but without any feedback it's irrelevant to further consider.
+A year has passed since. Given the low output, it's fair to say I didn't actively put a lot of time into the cycle of practice/feedback/repeat. There is [stuff I wrote without showing anyone](https://github.com/Bert-Proesmans/Ki-ara-ara), but without any feedback it's irrelevant to further consider.
 
 A point of notability; These stories all have a grim/dark theme. Altough these stories are born from my imagination, I don't actually feel lost/lonely/suicidal. Calliope and the theme of her virtual avatar is interesting, so that's the material I start working around.
 
 ## Grasping for the relief of death
 
-Following is a small text in direct response to art I saw on [Twitter](7) (Hi, [Myxo](8)). The artstyle blew my mind at the time.
+Following is a small text in direct response to art I saw on [Twitter](https://twitter.com/ChMyxo/status/1361087831637184512/photo/1) (Hi, [Myxo](https://twitter.com/ChMyxo)). The artstyle blew my mind at the time.
 
 ```txt
 I've lived a restless life. How couldn't I see? 
@@ -61,7 +61,7 @@ To spell it out; He's lying to himself, a sign of his insanity.
 
 ## Heartbreak and loneliness
 
-Inspired by Kiara, [I wrote about Kiara earlier](9), who moved back from Japan to Austria at the time. There was a lot of online talk leading up to this event, and I wanted to contribute by writing a silly what-if story about her friendship with Calli.  
+Inspired by Kiara, [I wrote about Kiara earlier](/tags/kiara-takanashi/), who moved back from Japan to Austria at the time. There was a lot of online talk leading up to this event, and I wanted to contribute by writing a silly what-if story about her friendship with Calli.  
 I set out to write an encounter that does character building, while discussing plastic bags from convenience stores. This twisted into something more emotionally loaded than needed be. I started winging it, had fun in the meantime, but that deteriorated the writing quality a lot.
 
 ```txt
@@ -276,14 +276,3 @@ I lack skills in tempo and flow, and need those taught to me because that's a ce
 I publish immediately for peace of mind. I regularly revisit my content to look for opportunities to improve.
 
 >> "And when everyone's Super, no one will be!" - Bad idea factory
-
-[0]: https://www.reddit.com/r/Hololive/comments/lipjfd/kiaras_goodbye_fanfiction/
-[1]: https://twitter.com/BertProesmans/status/1360728234158080000
-[2]: https://www.youtube.com/channel/UCL_qhgtOy0dy1Agp8vkySQg
-[3]: https://open.spotify.com/artist/1PhE6rv0146ZTQosoPDjk8
-[4]: https://music.apple.com/us/artist/mori-calliope/1536368549/see-all?section=top-songs
-[5]: https://www.youtube.com/watch?v=-AuQZrUHjhg
-[6]: https://github.com/Bert-Proesmans/Ki-ara-ara
-[7]: https://twitter.com/ChMyxo/status/1361087831637184512/photo/1
-[8]: https://twitter.com/ChMyxo
-[9]: /tags/kiara-takanashi/
