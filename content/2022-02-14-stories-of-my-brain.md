@@ -275,4 +275,4 @@ I lack skills in tempo and flow, and need those taught to me because that's a ce
 ---
 I publish immediately for peace of mind. I regularly revisit my content to look for opportunities to improve.
 
->> "And when everyone's Super, no one will be!" - Bad idea factory
+> "And when everyone's Super, no one will be!" - Bad idea factory
