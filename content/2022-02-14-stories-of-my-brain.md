@@ -26,8 +26,9 @@ Simply showing up and sharing her work already inspired many. Or she did move at
 A muse is a source of inspiration, a common word and has a well known description. Lesser known, however, is the old(er) definition; A poet. The name Calliope was specifically chosen for the VTuber persona because of its link to this word, I'm sure.  
 Short Greek mythology lesson; Calliope, daughter of Zeus, was one of the ~~three~~ nine muses who are patron godessess of art. She received gifts from bards and men in love, mere mortals, for a glimpse of brilliance in the form of epic poetry and eloquence. Do you see the correlation, eh? She raps, epic beats, eloquent words... and sometimes profanity.  
 
-So after learning about her existence I did what any wannabe Hercules would do; Send in a Youtube superchat! In return she blessed me with mentioning my name *angelic tune playing in the background*.  
-But for real, this century's Calliope is a badass and pumping out creative work at the speed my grandma crochets new shawls. (Super fast) I'm way better off than the ancient Greek plebeian. So that got me -musing-, which is a fancy wording of being absorbed into my own thoughts and pondering deeply, about knitting something of my own.
+So after learning about her existence I did what any wannabe Hercules would do; Send in a Youtube superchat! In return she blessed me with mentioning my name. *angelic tune playing in the background*  
+But for real, this century's Calliope is a badass and pumping out creative work at the speed my grandma crochets new shawls. (Super fast)  
+I'm way better off than the ancient Greek plebeian. So that got me -musing-, which is a fancy wording of being absorbed into my own thoughts and pondering deeply, about "knitting" something of my own.
 
 And just like that my popular phase begins! I write out my deepest feelings, my bestest quips, my... my... words are hard! There are still decades of hard work between me and immortality on the scale of J.R.R. Tolkien.  
 It's an ongoing process. :)
