@@ -11,7 +11,7 @@ categories = ["Interests"]
 tags = ["Hololive", "Calliope Mori"]
 +++
 
-I've had this one thing on my mind for a year now; Write stories around Calliope Mori. Looking back on on the last year, I did just that on [reddit](https://www.reddit.com/r/Hololive/comments/lipjfd/kiaras_goodbye_fanfiction/) and [twitter](https://twitter.com/BertProesmans/status/1360728234158080000).  
+I've had this one thing on my mind for a year now; Write stories around Calliope Mori. Looking back on the last twelve months, I did just that on [reddit](https://www.reddit.com/r/Hololive/comments/lipjfd/kiaras_goodbye_fanfiction/) and [twitter](https://twitter.com/BertProesmans/status/1360728234158080000).  
 But those are not the stories I set out to write.
 <!-- more -->
 
