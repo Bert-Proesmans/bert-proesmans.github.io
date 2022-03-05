@@ -16,7 +16,7 @@ The world is actually well connected, at least if you're using the internet. My 
 Easily mistaken for a small, confined space, the internet is actually a vast universe of content and interaction. It's ours to shape and efforts by the tech giants made that space virtually unlimited in size, with almost no restrictions on content.  
 Within the communities I frequently visit there are Germans, French, Ukrainians, other fellow Europeans, Indians, Chinese, Indonesians, Japanese, Australians, Americans, Brazilians etc.
 
-The language we commonly use for communication is a mix of British and American English. Theoretically no problem, but practically everyone is using their version of English. This leads to, of course it does, funny situations where pronounciation failed and the entire conversation gets unhinged. Like the pronounciation of [earth in this short clip](https://youtube.com/clip/Ugkxd83mhfgIZBjVzPiCZd7QfRcP8eTnezrF). Don't tell me you did not hear something more... enticing.
+The language we commonly use for communication is a mix of British and American English. Theoretically no problem, but practically everyone is using their version of English. This leads to, of course it does, funny situations where pronounciation failed and the entire conversation gets unhinged. Like the pronounciation of [earth in this short clip](https://www.youtube.com/watch?v=CFO0mrAwEbM). Don't tell me you did not hear something more... enticing.
 
 Jump over the yada-yada to [hear some clips](#butchering-but-not-really)!
 
