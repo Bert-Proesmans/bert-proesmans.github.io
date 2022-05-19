@@ -17,7 +17,7 @@ The plea is concise, elegant, well written. Maybe a bit unreasonable...
 
 See [https://smallandroidphone.com/](https://smallandroidphone.com/) for more details.
 
-After posting this page, the owner of the website updated the "Must Have" specifications. I don't agree specifically with the additions. I've even written [about the same topic before](2021-08-10-I-need-a-new-smartphone.md). Let's discuss the details from my perspective.
+After posting this page, the owner of the website updated the "Must Have" specifications. I don't agree specifically with the additions. I've even written [about the same topic before](@/2021-08-10-I-need-a-new-smartphone.md). Let's discuss the details from my perspective.
 
 > Hole punch front camera
 
