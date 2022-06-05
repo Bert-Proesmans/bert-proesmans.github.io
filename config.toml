@@ -73,9 +73,9 @@ even_title = "Bert Proesmans" # $title
 # Put all your custom variables here
 # This is the default menu
 even_menu = [
-    {url = "$BASE_URL", name = "Home"},
-    {url = "https://github.com/Bert-Proesmans", name = "Github"},
-    # {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL", name = "Landing page"},
+    {url = "$BASE_URL/categories", name = "Blogpost categories"},
     # {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "https://github.com/Bert-Proesmans", name = "Github"},
     {url = "$BASE_URL/about", name = "About"},
 ]
