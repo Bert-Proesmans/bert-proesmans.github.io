@@ -7,8 +7,8 @@ updated = 2022-02-19
 draft = false
 
 [taxonomies]
-categories = ["Interests"]
-tags = ["Hololive", "Calliope Mori"]
+categories = ["Hololive"]
+tags = ["Calliope Mori", "Mori Calliope"]
 +++
 
 I've had this one thing on my mind for a year now; Write stories around Calliope Mori. Looking back on the last twelve months, I did just that on [reddit](https://www.reddit.com/r/Hololive/comments/lipjfd/kiaras_goodbye_fanfiction/) and [twitter](https://twitter.com/BertProesmans/status/1360728234158080000).  

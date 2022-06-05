@@ -6,7 +6,7 @@ date = 2021-05-24T18:00:00Z
 updated = 2021-05-29
 
 [taxonomies]
-categories = ["Hacker News"]
+categories = ["Reply"]
 tags = ["Rants"]
 +++
 

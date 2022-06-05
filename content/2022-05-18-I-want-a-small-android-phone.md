@@ -7,8 +7,8 @@ updated = 2022-05-19
 draft = false
 
 [taxonomies]
-categories = []
-tags = []
+categories = ["Reply"]
+tags = ["Smartphones", "Smart phones", "Oneplus", "Oneplus X"]
 +++
 
 Thoughts have been put into words. AMEN  

@@ -7,8 +7,8 @@ updated = 2022-03-06
 draft = false
 
 [taxonomies]
-categories = []
-tags = []
+categories = ["Trolling"]
+tags = ["Proesmans", "Enunciation", "IPA"]
 +++
 
 The world is actually well connected, at least if you're using the internet. My virtual personna through which I experience internet adventures has my real name attached. It's the same name that sometimes causes funny pronounciations and confusion.

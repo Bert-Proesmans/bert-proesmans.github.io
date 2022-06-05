@@ -6,8 +6,8 @@ date = 2021-05-24T12:00:00Z
 updated = 2021-05-24
 
 [taxonomies]
-categories = ["Interests"]
-tags = ["Hololive", "Takanashi Kiara", "Kiara Takanashi"]
+categories = ["Hololive"]
+tags = ["Takanashi Kiara", "Kiara Takanashi"]
 +++
 
 # I'm a fan of Kiara Takanashi!

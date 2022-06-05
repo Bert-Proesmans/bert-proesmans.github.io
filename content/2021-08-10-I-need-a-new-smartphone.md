@@ -7,8 +7,8 @@ updated = 2021-08-10
 draft = false
 
 [taxonomies]
-categories = ["Interests"]
-tags = ["Oneplus", "Oneplus X", "Smartphone"]
+categories = ["Gadgets"]
+tags = ["Oneplus", "Oneplus X", "Smartphones", "Smart phones"]
 +++
 
 I'm pretty satisfied with my current smartphone. But "current" is too much of a stretch, so now I'm looking for a replacement.

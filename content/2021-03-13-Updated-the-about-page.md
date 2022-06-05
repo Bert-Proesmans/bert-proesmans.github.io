@@ -5,8 +5,8 @@ description = "Spring cleaning this website"
 date = 2021-03-13
 
 [taxonomies]
-categories = ["Meta"]
-tags = ["Site", "Redesign"]
+categories = ["Site"]
+tags = ["Meta", "Redesign"]
 +++
 
 This website has been up for a long time and it still attracts readers from across the globe. Why or how is beyond me, but it's certain that some updates are required. I'm still in awe of how fast pages of this website load, that's nice!
