@@ -72,8 +72,8 @@ But it's still OPEN TO EVERYONE, and processing each message becomes inconvenien
 
 Does that mean the abuser should be blamed for your inconvenience? No, most of the time not because there is no reason to!  
 You, user, holds all the power. Crying like a little baby about this topic will hand off that power to the abuser. You have to give the abuser a proverbial kick in the balls, or take your money and move elsewhere.   
-When that kick is not an option, you complain to the platform maintainers to solve your issue. Because if it's *possible*, that means the platform/system is bugged and needs a *structural solution*!  
-If even then there is no followup, you move, because that company and/or those people are not your partners. There is a limit to how much shit you can handle each day, and less shit provides more quality time.
+When that kick is not an option, you complain to the platform maintainers to solve your issue. Because when it's *possible* to easily abuse, that means the platform/system is bugged and a *structural solution* needs to be applied!  
+If even then there is no followup, you move. That company and/or those people are not your partners anymore. There is a limit to how much shit you can handle each day, and less shit provides more quality time.
 
 # Solutions
 
@@ -88,7 +88,8 @@ Or use two/multiple phones, tablets, e-mail addressess, pc accounts.
 
 The point is to go through your notifications on your own terms. I legit do not care if you send me a WhatsApp/Facebook/Twitter/Reddit/e-mail message, I will respond when I make time to browse the platform. My phone is also on silent except when favourite contacts ring me up.  
 
-Saying the above is easy, each person's circumstances are different and implementing this is tough. The point is to take control of those settings, and change what you're comfortable with... or don't and wait until you get abused.
+Saying the above is easy, each person's circumstances are different and I suggest to change up your way of working. Implementing a behavioural change is tough.  
+The point is to take control of those settings, and change up configurations still within your comfort zone. This can easily be a multi-step process, or don't do anything (calculated risk) and wait until abuse rolls in.
 
 ## Postmail
 
@@ -102,8 +103,9 @@ Decrease the size of your mailbox so it can (almost) exactly hold the material y
 
 ### Human
 
-Lock the front lip of your mailbox with a key. You now have box with two locks, one for your postman, one for yourself. Hand the key to your postman.  
-*OMG, but I would have to* **gulp** *interact with my postman!* Yes, the world turns because of working humans and their interactions. Get on with it.
+Lock the front lip of your mailbox with a key. You now have box with two locks, one for your postman, one for yourself. Hand your postman his key.  
+*OMG, but I would have to* **gulp** *interact with my postman!*  
+Yes, the world turns because of working humans and their interactions. Get on with it.
 
 ## E-mail
 
@@ -115,7 +117,7 @@ Targetted SPAM can be easily identified. Create folder rules to automatically se
 
 Use the facilities provided by your e-mail provider, like "Conversation view"/"Threaded view" or automated SPAM filtering. The point is to not needing to look at hundreds of SPAM e-mails because they are grouped and classified. All you have to do should be "Select All" and click "Delete".
 
-The "conversation view" IS SUCH AN UNDERRATED FEATURE, I cannot believe so little people make use of e-mail threads.  
+The "conversation view" IS SUCH AN UNDERRATED FEATURE! I cannot believe why e-mail threads aren't used more often.  
 It's a literal heaven on earth; Coming back from weeks of vacation and moving 30 e-mails out of your inbox *at once* because the very last e-mail mentioned the words "ISSUE SOLVED".
 
 ### Move
@@ -146,7 +148,7 @@ When you respond to a twitter post, the context of the post you're replying to i
 1. Person B likes Person A's post
 1. Person C gets to see Person A's post because the like left by Person B
 1. Person C responds to Person A's post, given Person B liked it
-1. Person D sees Person C's reply-post, and replies himself
+1. Person D sees Person C's reply-post, and replies to it
 
 The post made by Person D contains tags to Person A, and Person B, and Person C! Depending on the notification settings of all Person accounts, they receive a notification of the latest post.  
 Is this default tagging behaviour correct? I honestly cannot say because it depends on the message content. The fact is Twitter tags all, but it also provides the means to pick who to tag!  
@@ -154,14 +156,18 @@ Is this default tagging behaviour correct? I honestly cannot say because it depe
 Is this an issue with people or the system, then? I personally think it's both. The system provides the means to follow interesting accounts, update your notification and privacy settings, change who to tag in your post.  
 Twitter SHOULD update the interface to make tag selection more discoverable, but people SHOULD also tweak their own notification settings!
 
-At this point I take care of doing this;  
+So my approach is as follows;  
 
-* I do change _who_ I tag when replying to a post. Because, again, that person is important to me... but it annoys me so much, really.
-* I have changed my notification settings to only alert me when someone I follow interacts with my stuff.
+* I **do change who I tag** when replying to a post. 
+
+This annoys me so much, really, but I do it out of unfounded kindness. This is also not a long-term solution, it only hides bad system design in the short term.
 
 ![Twitter select who to tag](/2022-06-05-twitter_select_to_tag.png)
 
 > Play a game of "Find out if and how you select who to tag before you post" on Twitter /facepalm
+
+
+* I have changed my notification settings to only alert me when someone I follow interacts with my stuff.
 
 ![Twitter Privacy & Notification settings](/2022-06-05-twitter_settings.png)
 
