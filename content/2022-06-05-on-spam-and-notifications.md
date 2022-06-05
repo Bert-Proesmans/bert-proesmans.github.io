@@ -2,30 +2,28 @@
 title = "*PLING* You've got SPAMmed!"
 description = "It's not them, it's you"
 
-date = 2021-06-05T11:00:00Z
-updated = 2021-06-05
+date = 2022-06-05T11:00:00Z
+updated = 2022-06-05
 
 [taxonomies]
-categories = [""]
-tags = []
+categories = ["Reply"]
+tags = ["SPAM", "Notifications"]
 +++
-
-# What happened?
 
 Today 400 thousand people with Github accounts received multiple notifications about an discussion around [a Pull Request (PR)](https://github.com/EpicGames/Signup/pull/24). I'm one of them... <!-- more -->
 
-# "Damage"
+# What happened?
 
 ![Github notification e-mails](/2022-06-05-github_notifications.png)
 
-> I got about 168 e-mails, all about the same topic (PR)
+> Myself, and about 400k others, got about 168 e-mails. These e-mails all imply the existence of an *ahem* issue.
 
 # How?
 
 Github is a platform for hosting and collaborating on code. It's one of, if not #1, the more popular platforms to do so.  
 On this platform it's possible to organize people and intellectual property (IP) in teams. The purpose is to structure data to simplify access controls, but there is a side-effect; aggregation.
 
-Every platform with a social network component has the ability to tag other accounts; the implicit universal standard is to use the at-character (@), followed by the account name. The tag itself is just text, but it's existence has some effects (depending on the platform). In almost all cases, the person in question receives a message notification.
+Every platform with a social network component has the ability to tag other accounts; the implicit universal standard is to use the at-character (@), followed by the account name. The tag itself is just text, but its existence has some effects (depending on the platform). In almost all cases, the person in question receives a message notification.
 
 Tagging and aggregation combine into a mechanism to tag multiple people, for example;
 
@@ -44,14 +42,13 @@ But then **THUNDERING HERD**!
 
 > The thundering herd. A group of animals galloping in the same direction. Sometimes because of an attacking predator, sometimes towards something interesting like a water drinking spot.
 
-The herd, in this case, is a subset of those 400k people attracted towards the relevant PR. That sounds thundering already, BUT WAIT! People arrived and started exploring what the notification is all about. The PR in itself contains nothing of substance, something very unprofessional (let's leave it at that), and that became the bait! Oh yes, I advise to click the link and read for yourself. Perfect example of how not to cooperate.
+The herd, in this case, is a subset of those 400k people attracted towards the relevant PR. That sounds thundering already, BUT WAIT! People arrived and started exploring what the notification is all about. The PR in itself contains nothing of substance, something very unprofessional (let's leave it at that), and that became bait! Oh yes, I advise to click the link and read the comments for yourself. Perfect example of bad cooperation.
 
-> Most are memers actually, I'd love to dissect angry ungrounded messages! DISSAPOINTEEEED lol
+> Most are memers actually, I'd love to have dissected angry ungrounded messages! DISSAPOINTEEEED lol
 
-For some reason people tend to get mad upon receiving a notification. Extra mad if the topic is unexpected or irrelevant.  
-Now imagine if the topic contained something that offended them personally... OOOH YES! And there are also memers (trolls basically) that found the situation funny, like me.  
+For some reason people tend to get mad upon receiving a notification. Extra mad if the topic is unexpected or irrelevant. Now imagine if the topic contained something that offended them personally... OOOH YES! And there are also memers (trolls basically) that found the situation funny, like me.  
 Now what do you expect to happen when people start commenting on the PR? ... YES, MORE NOTIFICATIONS! *real thunderstrike*  
-Ooh boy, people might be able to resist a handfull of irrelevant notification messages. But 10s, 100s, that would be tough!
+Ooh boy, people might be able to resist a handfull of irrelevant notification messages. But 10s-100s of messages, that's something very hard to ignore. Some got tempted and left another comment themselves, adding another notification on top. 
 
 *Ahem* ... the comments increased, notification messages multiplied, and the IT community had a good laugh on a sunday morning..
 
@@ -80,8 +77,7 @@ If even then there is no followup, you move, because that company and/or those p
 
 # Solutions
 
-I list specific solutions below. I feel that some solutions are not really well explained on the internet, basically leading to bad discoverability.  
-Take from this list what you need, providing a general solution for every specific case is impossible.
+I list specific solutions below. I feel that some solutions are not really well explained on the internet, basically leading to bad discoverability. Take from this list what you need. Providing a general solution for every specific case is impossible.
 
 ## General
 
@@ -98,8 +94,7 @@ Saying the above is easy, each person's circumstances are different and implemen
 
 ### Straight edge
 
-Remove the post mailbox.  
-... but that's not always feasible due to governmental policies.
+Remove the post mailbox... but that's not always feasible due to governmental policies.
 
 ### Clever
 
@@ -114,14 +109,14 @@ Lock the front lip of your mailbox with a key. You now have box with two locks, 
 
 ### Automate
 
-Targetted SPAM can be easily identified. Create folder rules to automatically select and remove SPAM e-mails from your INBOX.  
-Every decent e-mail provider allows setting up mail folder rules.
+Targetted SPAM can be easily identified. Create folder rules to automatically select and remove SPAM e-mails from your INBOX. Every decent e-mail provider allows setting up mail folder rules.
 
 ### Quick administration
 
 Use the facilities provided by your e-mail provider, like "Conversation view"/"Threaded view" or automated SPAM filtering. The point is to not needing to look at hundreds of SPAM e-mails because they are grouped and classified. All you have to do should be "Select All" and click "Delete".
 
-The "conversation view" IS SUCH AN UNDERRATED FEATURE, I legit cannot believe not that many people know about it. It's a literal heaven on earth, coming back from weeks of vacation and moving 30 e-mails out of your inbox *at once* because the very last e-mail mentioned the words "ISSUE SOLVED".
+The "conversation view" IS SUCH AN UNDERRATED FEATURE, I cannot believe so little people make use of e-mail threads.  
+It's a literal heaven on earth; Coming back from weeks of vacation and moving 30 e-mails out of your inbox *at once* because the very last e-mail mentioned the words "ISSUE SOLVED".
 
 ### Move
 
@@ -151,17 +146,18 @@ When you respond to a twitter post, the context of the post you're replying to i
 1. Person B likes Person A's post
 1. Person C gets to see Person A's post because the like left by Person B
 1. Person C responds to Person A's post, given Person B liked it
+1. Person D sees Person C's reply-post, and replies himself
 
-The post made by Person C contains tags to **both** Person A and Person B! Depending on the notification settings of all Person accounts, they receive a notification of Person C's post.  
-Is this default tagging behaviour correct? I honestly cannot say because it depends on the message content. The fact is that Twitter tags both, but it provides the means to pick who to tag!  
+The post made by Person D contains tags to Person A, and Person B, and Person C! Depending on the notification settings of all Person accounts, they receive a notification of the latest post.  
+Is this default tagging behaviour correct? I honestly cannot say because it depends on the message content. The fact is Twitter tags all, but it also provides the means to pick who to tag!  
 
 Is this an issue with people or the system, then? I personally think it's both. The system provides the means to follow interesting accounts, update your notification and privacy settings, change who to tag in your post.  
-Twitter SHOULD update the interface to make tag selection more discoverable, but people should also tweak their own notification settings!
+Twitter SHOULD update the interface to make tag selection more discoverable, but people SHOULD also tweak their own notification settings!
 
-This is what I ended up doing;  
+At this point I take care of doing this;  
 
-I do change _who_ I tag when replying to a post. Because, again, that person is important to me... but it annoys me so much, really.  
-I have changed my notification settings to only alert me when someone I follow interacts with my stuff.
+* I do change _who_ I tag when replying to a post. Because, again, that person is important to me... but it annoys me so much, really.
+* I have changed my notification settings to only alert me when someone I follow interacts with my stuff.
 
 ![Twitter select who to tag](/2022-06-05-twitter_select_to_tag.png)
 
