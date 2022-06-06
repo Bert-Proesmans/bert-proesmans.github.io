@@ -10,7 +10,7 @@ categories = ["Reply"]
 tags = ["SPAM", "Notifications"]
 +++
 
-Today 400 thousand people with Github accounts received multiple notifications about an discussion around [a Pull Request (PR)](https://github.com/EpicGames/Signup/pull/24). I'm one of them... <!-- more -->
+Today 400 thousand people with Github accounts received multiple notifications about a discussion around [this Pull Request (PR)](https://github.com/EpicGames/Signup/pull/24). I'm one of them... <!-- more -->
 
 # What happened?
 
@@ -40,7 +40,8 @@ But then **THUNDERING HERD**!
 
 # Problem?
 
-> The thundering herd. A group of animals galloping in the same direction. Sometimes because of an attacking predator, sometimes towards something interesting like a water drinking spot.
+> The thundering herd. A group of animals galloping in the same direction. Sometimes because of an attacking predator, sometimes towards something interesting like a water drinking spot.  
+> LONG LIVE THE KING™️
 
 The herd, in this case, is a subset of those 400k people attracted towards the relevant PR. That sounds thundering already, BUT WAIT! People arrived and started exploring what the notification is all about. The PR in itself contains nothing of substance, something very unprofessional (let's leave it at that), and that became bait! Oh yes, I advise to click the link and read the comments for yourself. Perfect example of bad cooperation.
 
