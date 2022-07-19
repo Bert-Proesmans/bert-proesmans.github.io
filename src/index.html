@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+
+<head>
+	<script type="text/json">
+    {
+        "supports" : {
+            "lang"      : "en",
+            "charset"   : "utf-8",
+            "title"     : "Title",
+            "description" : "Page description",
+            "favicon"   : "favicon.icon",
+            "safari"      : true, // depreacted, use 'apple' instead
+            "apple"		: {
+                    "icons" : {
+                        "default": "touch-icon-iphone.png",
+                        "152x152": "touch-icon-iphone.png",
+                        "180x180": "touch-icon-iphone.png",
+                        "167x167": "touch-icon-iphone.png",
+                    },
+                    "webAppTitle": "AppTitle",
+                    "startupImage": "/launch.png"
+                },
+            "openGraph"   : {
+                    "type": "website",
+                    "url": "https://example.com/page.html",
+                    "title": "Content Title",
+                    "image": "https://example.com/image.jpg",
+                    "imageWidth": "1200",
+                    "imageHeight": "630",
+                    "description": "Description Here",
+                    "siteName": "Site Name",
+                    "locale": "en_US"
+                },
+            "twitterCard" : {
+                    "card": "summary",
+                    "site": "@site_account",
+                    "creator": "@individual_account",
+                    "url": "https://example.com/page.html",
+                    "title": "Content Title",
+                    "description": "Content description less than 200 characters",
+                    "image": "https://example.com/image.jpg"
+                },
+            "resetCss"    : "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css",
+            "dnsPrefetch"	: [],
+                "preconnection" : []
+        },
+        "outDir"    : "build",
+        "fileName"  : "index",
+        "filePath"  : ""
+    }
+    </script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="description" content="Description">
+	<meta name="author" content="John Doe">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="robots" content="all">
+	<title>Title</title>
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml">
+	<link href="/dist/output.css" rel="stylesheet">
+	<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="167x167" href="touch-icon-ipad-retina.png">
+	<link rel="apple-touch-startup-image" href="/launch.png">
+	<meta name="apple-mobile-web-app-title" content="AppTitle">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://example.com/page.html">
+	<meta property="og:title" content="Content Title">
+	<meta property="og:image" content="https://example.com/image.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:description" content="Description Here">
+	<meta property="og:site_name" content="Site Name">
+	<meta property="og:locale" content="en_US">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@site_account">
+	<meta name="twitter:creator" content="@individual_account">
+	<meta name="twitter:url" content="https://example.com/page.html">
+	<meta name="twitter:title" content="Content Title">
+	<meta name="twitter:description" content="Content description less than 200 characters">
+	<meta name="twitter:image" content="https://example.com/image.jpg">
+	<link rel="dns-prefetch" href="http://example.com">
+	<link rel="preconnect" href="http://example.com">
+
+	<script type="text/javascript">
+		// On page load or when changing themes, best to add inline in `head` to avoid FOUC
+		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+			document.documentElement.classList.add('dark')
+		} else {
+			document.documentElement.classList.remove('dark')
+		}
+
+		// Whenever the user explicitly chooses light mode
+		// localStorage.theme = 'light'
+
+		// Whenever the user explicitly chooses dark mode
+		// localStorage.theme = 'dark'
+
+		// Whenever the user explicitly chooses to respect the OS preference
+		// localStorage.removeItem('theme')
+	</script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<h1>Bert Proesmans</h1>
+			<ul>
+				<li tabindex="0">
+					<a>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+							aria-hidden="true">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+						</svg> Home</a>
+				</li>
+				<li tabindex="0" class="">
+					<a>
+						About
+					</a>
+				</li>
+				<li tabindex="0">
+					<a>
+						Blog
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Here is our page's main content -->
+	<main>
+
+		<!-- It contains an article -->
+		<article>
+
+			<h2>Article heading</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris.
+				Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et
+				diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia
+				consectetur.</p>
+
+			<h3>subsection</h3>
+
+			<p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur
+				adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.
+			</p>
+
+			<p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra
+				tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.
+			</p>
+
+			<h3>Another subsection</h3>
+
+			<p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis
+				parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem
+				facilisis semper ac in est.</p>
+
+			<p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas
+				convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis
+				velit, is fringille sem nunc vet mi.</p>
+
+		</article>
+
+		<aside>
+
+			<h2>Related</h2>
+
+			<ul>
+				<li><a href="#">Oh I do like to be beside the seaside</a></li>
+				<li><a href="#">Oh I do like to be beside the sea</a></li>
+				<li><a href="#">Although in the North of England</a></li>
+				<li><a href="#">It never stops raining</a></li>
+				<li><a href="#">Oh well...</a></li>
+			</ul>
+
+		</aside>
+
+	</main>
+
+	<nav class="btm-nav">
+		<button class="active">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+				stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+			</svg>
+			<span class="btm-nav-label">Home</span>
+		</button>
+		<button>
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+				stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+			</svg>
+			<span class="btm-nav-label">Blog</span>
+		</button>
+		<button>
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+				stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+			</svg>
+			<span class="btm-nav-label">Item 3</span>
+		</button>
+	</nav>
+
+	<footer>
+
+	</footer>
+</body>
+
+</html>
