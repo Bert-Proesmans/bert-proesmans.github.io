@@ -12,10 +12,9 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@master
       - name: 'Build only' 
-        uses: shalzz/zola-deploy-action@master
+        uses: shalzz/zola-deploy-action@c34a7626cd84c9c90499afeb310070ea838a8d1a
         env:
           BUILD_DIR: .
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILD_ONLY: true
   build_and_deploy:
     runs-on: ubuntu-latest
@@ -24,10 +23,9 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@master
       - name: 'Build and deploy'
-        uses: shalzz/zola-deploy-action@master
+        uses: shalzz/zola-deploy-action@c34a7626cd84c9c90499afeb310070ea838a8d1a
         env:
           PAGES_BRANCH: gh-pages
           BUILD_DIR: .
-          # Requires a seperate private token, the GITHUB_TOKEN will NOT TRIGGER a pages rebuild
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
           

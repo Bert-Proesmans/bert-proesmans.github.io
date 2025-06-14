@@ -23,7 +23,7 @@ Jumping over the economics and other non-technical dynamics, the power in posess
 With the recent technological milestone that is ChatGPT, computers can do a whole lot! Every personal computer in use today produces magical outputs from the perspective of year 2000. I'm talking about seemingly straightforward expectations like instant payment transactions, conversing with humans, continuously tracking your whereabouts and listening in on conversations with your friends and actually understanding your dark humor inside jokes.  
 That last example is a bit creepy and confrontational. I really want you to understand how powerful todays computers, even the portable pocket-sized ones, are right this moment! So how do you wield this powerful machine for your own good, even on a small scale?
 
-#
+WIP
 
 ---
 I publish immediately for peace of mind. I regularly revisit my content to look for opportunities to improve.
