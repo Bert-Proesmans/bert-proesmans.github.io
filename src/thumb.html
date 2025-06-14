@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<style type="text/css">
+		/*
+		CSS sanity fix
+		----
+		Josh's Custom CSS Reset
+		https://www.joshwcomeau.com/css/custom-css-reset/
+		*/
+		*,
+		*::before,
+		*::after {
+			box-sizing: border-box;
+		}
+
+		* {
+			margin: 0;
+		}
+
+		html,
+		body {
+			/* Might need to be changed for sanity's sake into a vh (or derivate) unit */
+			height: 100%;
+		}
+
+		body {
+			line-height: calc(1.0em + 0.5em);
+			-webkit-font-smoothing: antialiased;
+		}
+
+		img,
+		picture,
+		video,
+		canvas,
+		svg {
+			display: block;
+			max-width: 100%;
+		}
+
+		input,
+		button,
+		textarea,
+		select {
+			font: inherit;
+		}
+
+		p,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			overflow-wrap: break-word;
+		}
+	</style>
+
+	<style type="text/css">
+		body,
+		main {
+			height: 100vh;
+			width: 100vw;
+			margin: 0px;
+			background-color: black;
+		}
+
+		#nav-toggle {
+			display: none;
+		}
+
+		main {
+			background-image: url('https://images.unsplash.com/photo-1666870562557-f5e562aa34ea');
+			background-size: cover;
+			background-position: center 0%;
+			position: relative;
+			z-index: 2;
+			transition: transform 500ms cubic-bezier(.13, .53, .38, .97);
+		}
+
+		#nav-toggle:checked~main {
+			transform: translateY(-50%);
+		}
+
+		nav {
+			height: 50vh;
+			width: 100%;
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+			z-index: 1;
+			overflow: hidden;
+		}
+
+		#nav-links {
+			display: flex;
+			justify-content: center;
+			gap: clamp(1rem, 2vw, 2rem);
+			margin-top: clamp(2rem, 2vw, 3rem);
+			padding: 0rem clamp(1rem, 2vw, 2rem);
+			transform: translateY(70%) scale(0.9);
+			transition: transform 500ms cubic-bezier(.13, .53, .38, .97);
+		}
+
+		#nav-toggle:checked~nav>#nav-links {
+			transform: translateY(0%) scale(1);
+		}
+
+		#nav-links>a {
+			text-decoration: none;
+		}
+
+		#nav-links>a>h1 {
+			color: white;
+			font-size: 1.25rem;
+			margin: 0rem;
+			text-transform: uppercase;
+		}
+
+		#nav-links>a>img {
+			width: max(20vw, 400px);
+			aspect-ratio: 1.8 / 1;
+			border-radius: 0.5rem;
+			margin-top: 0.75rem;
+			object-fit: cover;
+		}
+
+		#nav-toggle+label {
+			height: 5rem;
+			width: 5rem;
+			position: fixed;
+			z-index: 100;
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 3rem;
+			border-radius: 50%;
+			border: 5px solid #fff;
+			background-color: unset;
+			outline: none;
+			cursor: pointer;
+			will-change: transform;
+			animation: breathe 5s ease 0s infinite alternate;
+		}
+
+		@keyframes breathe {
+
+			/* Using scale here to not override the existing transform property on the label */
+			0% {
+				scale: 1.0;
+			}
+
+			100% {
+				scale: 1.06;
+			}
+		}
+
+		/* #nav-toggle+label:hover {
+			transform: translateX(-50%) scale(1.04);
+		}
+
+		#nav-toggle+label:active {
+			transform: translateX(-50%) scale(0.96);
+		} */
+
+		#nav-toggle:checked+label {
+			background-color: rgb(85, 130, 149);
+		}
+
+		#nav-toggle+label>i {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%) scale(0.9);
+			color: rgb(246, 231, 224);
+			font-size: 1.75rem;
+			opacity: 0;
+			transition: transform, opacity;
+			transition-timing-function: ease;
+			transition-duration: 400ms;
+		}
+
+		#nav-toggle:not(:checked)+label:hover>.open {
+			opacity: 1;
+			transform: translate(-50%, -50%) scale(1);
+		}
+
+		#nav-toggle:checked+label>.close {
+			opacity: 1;
+			transform: translate(-50%, -50%) scale(1);
+		}
+
+		main>article {
+			position:relative;
+			background-color: rgba(0, 0, 0, 0.60);
+			display: flex;
+			flex-direction: row;
+		}
+
+		main>article>section {
+			flex-basis: 75%;
+			max-width: 75%;
+		}
+
+		main>article>section:first-child {
+			flex-basis: 25%;
+			max-width: 25%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			color: #fff;
+		}
+	</style>
+</head>
+
+<body>
+	<input id="nav-toggle" type="checkbox" />
+	<label for="nav-toggle">
+		<i class="open">OPEN</i>
+		<i class="close">CLOSE</i>
+	</label>
+
+	<main>
+		<article>
+			<section>
+				<header>Bert Proesmans</header>
+				<p>Laboris ipsum excepteur elit officia ullamco laborum. Lorem nulla aliqua consectetur deserunt elit
+					nisi aliqua consequat sint aute fugiat. Lorem occaecat duis elit nulla duis ullamco ex aliqua.
+					Incididunt minim pariatur dolor ad tempor.</p>
+				<p>
+					Cillum cupidatat qui incididunt consequat. Consectetur aliqua ut elit consectetur et. Aliquip
+					laboris reprehenderit eu irure exercitation exercitation adipisicing et eu commodo excepteur nisi
+					aliqua. Eiusmod pariatur reprehenderit veniam id laborum ut sunt ea sint Lorem non enim. In amet ea
+					dolore ullamco ex id proident velit ullamco est amet pariatur reprehenderit proident. Occaecat do
+					anim anim sunt ut sint magna quis cupidatat sunt reprehenderit ad eu.</p>
+			</section>
+			<section>SPACER</section>
+		</article>
+	</main>
+	<nav>
+		<div id="nav-links">
+			<a href="#">
+				<h1>About</h1>
+				<img
+					src="https://images.unsplash.com/photo-1666091863721-54331a5db52d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" />
+			</a>
+			<a href="#">
+				<h1>Work</h1>
+				<img
+					src="https://images.unsplash.com/photo-1666055642230-1595470b98fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=995&q=80" />
+			</a>
+			<a href="#">
+				<h1>Blog</h1>
+				<img
+					src="https://images.unsplash.com/photo-1666005487638-61f45819c975?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" />
+			</a>
+		</div>
+	</nav>
+</body>
+
+</html>
