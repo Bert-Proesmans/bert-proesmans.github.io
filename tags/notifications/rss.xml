@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Bert Proesmans - Notifications</title>
+      <link>https://bert.proesmans.eu</link>
+      <description>Presence on the internet is a must?</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://bert.proesmans.eu/tags/notifications/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 05 Jun 2022 11:00:00 +0000</lastBuildDate>
+      <item>
+          <title>*PLING* You&#x27;ve got SPAMmed!</title>
+          <pubDate>Sun, 05 Jun 2022 11:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://bert.proesmans.eu/on-spam-and-notifications/</link>
+          <guid>https://bert.proesmans.eu/on-spam-and-notifications/</guid>
+          <description xml:base="https://bert.proesmans.eu/on-spam-and-notifications/">&lt;p&gt;Today 400 thousand people with Github accounts received multiple notifications about a discussion around &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;EpicGames&#x2F;Signup&#x2F;pull&#x2F;24&quot;&gt;this Pull Request (PR)&lt;&#x2F;a&gt;. I’m one of them…</description>
+      </item>
+    </channel>
+</rss>

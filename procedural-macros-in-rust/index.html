@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      
+      <meta name="description" content="It&#x27;s essentially you writing code which writes code for you." />
+      
+    
+
+      <title>Bert Proesmans - Procedural macros in Rust</title>
+
+      
+          
+          <link rel="alternate" type="application/rss+xml" title="RSS" href="https://bert.proesmans.eu/rss.xml">
+          
+      
+
+      
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+          
+      
+
+      
+          <link rel="stylesheet" href="https://bert.proesmans.eu/site.css">
+          
+      
+
+      
+        <link rel="icon" type="image/svg+xml" href="https://bert.proesmans.eu/favicon.svg">
+        <link rel="apple-touch-icon" sizes="57x57" href="https://bert.proesmans.eu/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://bert.proesmans.eu/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://bert.proesmans.eu/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://bert.proesmans.eu/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://bert.proesmans.eu/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://bert.proesmans.eu/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://bert.proesmans.eu/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://bert.proesmans.eu/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://bert.proesmans.eu/apple-icon-180x180.png">
+        <link rel="alternate icon" type="image/png" sizes="192x192"  href="https://bert.proesmans.eu/android-icon-192x192.png">
+        <link rel="alternate icon" type="image/png" sizes="32x32" href="https://bert.proesmans.eu/favicon-32x32.png">
+        <link rel="alternate icon" type="image/png" sizes="96x96" href="https://bert.proesmans.eu/favicon-96x96.png">
+        <link rel="alternate icon" type="image/png" sizes="16x16" href="https://bert.proesmans.eu/favicon-16x16.png">
+        <link rel="manifest" href="https://bert.proesmans.eu/manifest.json">
+        <meta name="msapplication-TileColor" content="#c05b4d">
+        <meta name="msapplication-TileImage" content="https://bert.proesmans.eu/ms-icon-144x144.png">
+        <meta name="theme-color" content="#c05b4d">
+      
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div id="mobile-navbar" class="mobile-navbar">
+              <div class="mobile-header-logo">
+                <a href="https:&#x2F;&#x2F;bert.proesmans.eu" class="logo">Bert Proesmans</a>
+              </div>
+              <div class="mobile-navbar-icon icon-out">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+              <ul class="mobile-menu-list">
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;bert.proesmans.eu">
+                            Landing page
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;categories">
+                            Blogpost categories
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;github.com&#x2F;Bert-Proesmans">
+                            Github
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;about">
+                            About
+                        </a>
+                    </li>
+                
+              </ul>
+            </nav>
+
+            <header id="header">
+                <div class="logo"><a href="https:&#x2F;&#x2F;bert.proesmans.eu">Bert Proesmans</a></div>
+                <nav class="menu">
+                    <ul>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;bert.proesmans.eu">
+                                    Landing page
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;categories">
+                                    Blogpost categories
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;github.com&#x2F;Bert-Proesmans">
+                                    Github
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;about">
+                                    About
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="content" id="mobile-panel">
+                    
+
+
+
+<article class="post">
+    
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;procedural-macros-in-rust&#x2F;">Procedural macros in Rust</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">2018-01-18</span>
+            
+        </div>
+    </header>
+
+    <div class="post-content">
+      <p>Sooo.. <a rel="noopener" target="_blank" href="https://en.wikipedia.org/wiki/Metaprogramming">Meta-Programming</a>! It’s essentially you writing code which writes code for
+you.<br />
+Within programming languages you do ‘it’ by implementing <strong>macro-instructions</strong>, which can be called by your other code.<br />
+The exact purpose of a macro is completely up to the developer to define and usage of useful macros potentially saves
+development time.. When all goes right.</p>
+<p>Rust specifically has various ways to implement and call a macro. For a complete explanation of the current state of macros
+within Rust, read
+<a rel="noopener" target="_blank" href="http://words.steveklabnik.com/an-overview-of-macros-in-rust">this post by Steve Klabnik</a>.
+Throughout this post you might have to re-visit that link.</p>
+<p>My first time touching Rust was in September 2017, which means it has been about 4 months since I started hacking with the
+language. How I feel about my acquired experiences so far will be the subject for another post.<br />
+My first contact with macros, though, was only a month ago!<br />
+Fairly recently i started using <code>macro_rules!()</code>. This is a macro in itself and makes it both simple to
+write and use <strong>Declarative Macros</strong>. These macros are straight forward; you implement it with a code template containing placeholders. When calling the macro you provide it arguments, which fill in the placeholders. Simple!</p>
+<blockquote>
+<p>By the way: macro_rules!() is not the only useful macro exposed to developers within the standard library. Probably the most
+written Rust statement, <code>println!()</code>, is also a macro!<br />
+It’s purpose when expanded is to write text to the standard out-stream.. and it even formats that text for you!</p>
+</blockquote>
+<p>The next step in the macro evolution is more interesting, <strong>Procedural Macros</strong>. This kind is the actual topic of the post
+you’re reading.<br />
+Procedural macros are often described as ‘compiler plugins’ and that name is not pure hype, because you gain the
+possibility of completely rewrite (syntax!) parts of your source code with such macros.<br />
+Although this promises great power, there are still issues preventing a stable implementation of procedural macros.
+The main issue I personally struggle with is <strong>Macro Hygiene</strong>. Hygiene stands for <em>NOT</em> unnecessarily exposing (leaking)
+types into the macro template code.<br />
+This is actually really important because code needs to be properly namespaced. This prevents common, but practically invisible, bugs from variable name- or type shadowing. Of course this feature works in both directions; types injected by procedural macros
+are not in some kind of global namespace!<br />
+So in the end there has been much, and still ongoing, discussion about how to properly import and export types from a
+procedural macro.</p>
+<blockquote>
+<p>As of now there is a lot of functionality not implemented in the stable Rust compiler, including procedural macros.
+To start using them you will need the Rust Nightly compiler and enable the feature at the start of your code.<br />
+The Nightly compiler is where all the cool kids hang out currently trying to improve and discuss about correct and/or misbehaviour.</p>
+</blockquote>
+<p>From the beginning I desired this post to be about successfully utilizing procedural macros in Rust, but in reality I’m struggling with the aforementioned hygiene issues.<br />
+So far i have been partially successful in implementing a procedural macro attribute which injects a newly constructed
+enum type into the code before compiling. The exact issue is explained in
+<a rel="noopener" target="_blank" href="https://users.rust-lang.org/t/issue-resolving-module-imports-after-applying-proc-macro-attribute/15090">this post on the Rust Users forum</a>.<br />
+I sincerely hope this issue can be resolved soon (a PR is in the making) and in the meantime I’ll just research more into the
+features within Rust.</p>
+<p>Happy hacking!</p>
+
+    </div>
+
+    
+    
+
+    <div class="post-footer">
+        
+            
+                <div class="post-tags">
+                    
+                        <a href="https://bert.proesmans.eu/tags/procedural-macros/">#Procedural macros</a>
+                    
+                </div>
+            
+            
+                <div class="post-nav">
+                    
+                        <a class="previous" href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;creating-a-procedural-macro-in-rust-1&#x2F;">‹ Creating a procedural macro in Rust Pt. 1</a>
+                    
+                    
+                        <a class="next" href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;hello-world&#x2F;">Hello world! ›</a>
+                    
+                </div>
+            
+
+        
+
+    </div>
+
+    
+    
+</article>
+
+
+                </div>
+            </main>
+
+            
+            
+        </div>
+
+      
+          <script type="text/javascript" src="https://bert.proesmans.eu/even.js" ></script>
+      
+    </body>
+
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Bert Proesmans - Calliope Mori</title>
+      <link>https://bert.proesmans.eu</link>
+      <description>Presence on the internet is a must?</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://bert.proesmans.eu/tags/calliope-mori/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 19 Feb 2022 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Calliope, the muse</title>
+          <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://bert.proesmans.eu/stories-of-my-brain/</link>
+          <guid>https://bert.proesmans.eu/stories-of-my-brain/</guid>
+          <description xml:base="https://bert.proesmans.eu/stories-of-my-brain/">&lt;p&gt;I’ve had this one thing on my mind for a year now; Write stories around Calliope Mori. Looking back on the last twelve months, I did just that on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Hololive&#x2F;comments&#x2F;lipjfd&#x2F;kiaras_goodbye_fanfiction&#x2F;&quot;&gt;reddit&lt;&#x2F;a&gt; and &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;BertProesmans&#x2F;status&#x2F;1360728234158080000&quot;&gt;twitter&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
+But those are not the stories I set out to write.&lt;&#x2F;p&gt;</description>
+      </item>
+    </channel>
+</rss>

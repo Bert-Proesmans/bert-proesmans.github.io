@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      
+      <meta name="description" content="Presence on the internet is a must?" />
+      
+    
+
+      <title>Bert Proesmans - Creating a procedural macro in Rust Pt. 1</title>
+
+      
+          
+          <link rel="alternate" type="application/rss+xml" title="RSS" href="https://bert.proesmans.eu/rss.xml">
+          
+      
+
+      
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+          
+      
+
+      
+          <link rel="stylesheet" href="https://bert.proesmans.eu/site.css">
+          
+      
+
+      
+        <link rel="icon" type="image/svg+xml" href="https://bert.proesmans.eu/favicon.svg">
+        <link rel="apple-touch-icon" sizes="57x57" href="https://bert.proesmans.eu/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://bert.proesmans.eu/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://bert.proesmans.eu/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://bert.proesmans.eu/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://bert.proesmans.eu/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://bert.proesmans.eu/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://bert.proesmans.eu/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://bert.proesmans.eu/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://bert.proesmans.eu/apple-icon-180x180.png">
+        <link rel="alternate icon" type="image/png" sizes="192x192"  href="https://bert.proesmans.eu/android-icon-192x192.png">
+        <link rel="alternate icon" type="image/png" sizes="32x32" href="https://bert.proesmans.eu/favicon-32x32.png">
+        <link rel="alternate icon" type="image/png" sizes="96x96" href="https://bert.proesmans.eu/favicon-96x96.png">
+        <link rel="alternate icon" type="image/png" sizes="16x16" href="https://bert.proesmans.eu/favicon-16x16.png">
+        <link rel="manifest" href="https://bert.proesmans.eu/manifest.json">
+        <meta name="msapplication-TileColor" content="#c05b4d">
+        <meta name="msapplication-TileImage" content="https://bert.proesmans.eu/ms-icon-144x144.png">
+        <meta name="theme-color" content="#c05b4d">
+      
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div id="mobile-navbar" class="mobile-navbar">
+              <div class="mobile-header-logo">
+                <a href="https:&#x2F;&#x2F;bert.proesmans.eu" class="logo">Bert Proesmans</a>
+              </div>
+              <div class="mobile-navbar-icon icon-out">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+              <ul class="mobile-menu-list">
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;bert.proesmans.eu">
+                            Landing page
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;categories">
+                            Blogpost categories
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;github.com&#x2F;Bert-Proesmans">
+                            Github
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;about">
+                            About
+                        </a>
+                    </li>
+                
+              </ul>
+            </nav>
+
+            <header id="header">
+                <div class="logo"><a href="https:&#x2F;&#x2F;bert.proesmans.eu">Bert Proesmans</a></div>
+                <nav class="menu">
+                    <ul>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;bert.proesmans.eu">
+                                    Landing page
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;categories">
+                                    Blogpost categories
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;github.com&#x2F;Bert-Proesmans">
+                                    Github
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;about">
+                                    About
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="content" id="mobile-panel">
+                    
+
+
+<div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">Contents</h2>
+    <div class="post-toc-content always-active">
+        <nav id="TableOfContents">
+            <ul>
+                
+                <li>
+                    <a href="https://bert.proesmans.eu/creating-a-procedural-macro-in-rust-1/#ready-to-go" class="toc-link">Ready to go?</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://bert.proesmans.eu/creating-a-procedural-macro-in-rust-1/#starting-off" class="toc-link">Starting off</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://bert.proesmans.eu/creating-a-procedural-macro-in-rust-1/#procedural-macro-template" class="toc-link">Procedural macro template</a>
+                    
+                    <ul>
+                        
+                        <li>
+                            <a href="https://bert.proesmans.eu/creating-a-procedural-macro-in-rust-1/#attribute-arguments" class="toc-link">Attribute arguments</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://bert.proesmans.eu/creating-a-procedural-macro-in-rust-1/#attribute-input" class="toc-link">Attribute input</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://bert.proesmans.eu/creating-a-procedural-macro-in-rust-1/#procedural-macro-usage" class="toc-link">Procedural macro usage</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://bert.proesmans.eu/creating-a-procedural-macro-in-rust-1/#building-the-macro" class="toc-link">Building the macro</a>
+                    
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+<article class="post">
+    
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;creating-a-procedural-macro-in-rust-1&#x2F;">Creating a procedural macro in Rust Pt. 1</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">2018-02-06</span>
+            
+        </div>
+    </header>
+
+    <div class="post-content">
+      <p>Procedural macros are relatively new. Because of that it’s quite possible you’ll
+encounter a few compilation errors.</p>
+<span id="continue-reading"></span>
+<p>Normally, in Rust, the compiler helps you out effortlessly, but the lack of properly
+understanding macro hygiëne and token spanning will result in confusing errors anyway.<br />
+I took the leap and wrote my own procedural macro, which is now released on
+<a rel="noopener" target="_blank" href="https://crates.io/crates/value_from_type_macros">crates.io</a>. That macro will be the subject of
+these posts while I try to explain and provide solutions for compilation errors.<br />
+The complete source of this macro can be found on
+<a rel="noopener" target="_blank" href="https://github.com/Bert-Proesmans/value-from-type-derive">github</a>, if you’re interested.</p>
+<h1 id="ready-to-go">Ready to go?</h1>
+<p>Make sure you have the Rust Nightly Toolchain installed, which can be done through the Rustup tool.
+This post also presumes you have already minimal knowledge of the Rust programming language and the
+Cargo tool.</p>
+<blockquote>
+<p>A nightly compiler is not necessary per se, but it allows me to show off some cool features which
+haven’t arived on stable yet.</p>
+</blockquote>
+<h1 id="starting-off">Starting off</h1>
+<p>A procedural macro must reside in it’s <strong>own crate</strong>. This ‘macro-crate’ is only allowed to export macros
+and that’s, in my opinion, already an unusual constraint. Right off the bat we need to work around
+this structural limitation by declaring two crates; 1 for all our macros and 1 for dependant types.
+Let us call them ‘crate M’ and ‘crate T’ respectively.<br />
+The crate containing your application code, which we’ll call ‘crate A’, will have both crate M and T as dependancy.<br />
+<em>DO NOT</em> make the macro crates dependant on each other or your application crate, these links will result
+in compilation errors because of circular dependancies. When necessary we can make additional dependancy
+links inside the expanded code from our macro.</p>
+<p>Building a procedural macro crate is quite simple. Inside the <code>Cargo.toml</code> file you add the following code:</p>
+<pre data-lang="toml" style="background-color:#ffffff;color:#4d4d4c;" class="language-toml "><code class="language-toml" data-lang="toml"><span>[</span><span style="color:#c82829;">lib</span><span>]
+</span><span style="color:#999999;"># Changes the build target
+</span><span style="color:#c82829;">proc-macro </span><span>= </span><span style="color:#f5871f;">true
+</span></code></pre>
+<h1 id="procedural-macro-template">Procedural macro template</h1>
+<p>Throughout this post I’ll use the terms ‘procedural macro’, ‘procedural macro attribute’ and ‘macro method’ so I’d like to take a moment first and explain each of them.<br />
+A procedural <strong>Macro</strong> is essentially a compiler extension which you can write yourself in Rust code. These macros
+allows for automatic code generation, constraints checking and more. Since it’s “just Rust code” you can make
+it do anything by utilising the standard library or external crates. Possibilites are endless.<br />
+A procedural macro <strong>Attribute</strong> is a kind of procedural macro which is invoked using a specific syntax. These
+macros are attributed to your Rust code and will interact with, or rather manipulate, that code.<br />
+A macro <strong>Method</strong> is the method called by the Rust compiler when a procedural macro is <em>resolved</em> (or called).
+These methods communicate with the Rust compiler and contain the logic of a macro.</p>
+<p>For now we’ll only focus on the crate which we marked with <code>proc-macro = true</code>, crate M. We’ll start by declaring
+and exporting our own procedural macro attribute at the root of that crate.
+Consider the following code:</p>
+<pre data-lang="rust" style="background-color:#ffffff;color:#4d4d4c;" class="language-rust "><code class="language-rust" data-lang="rust"><span>#![</span><span style="color:#c82829;">feature</span><span>(proc_macro)]
+</span><span>
+</span><span style="color:#8959a8;">extern crate</span><span> proc_macro;
+</span><span>
+</span><span style="color:#8959a8;">use </span><span>proc_macro::TokenStream;
+</span><span>
+</span><span>#[</span><span style="color:#c82829;">proc_macro_attribute</span><span>]
+</span><span style="color:#8959a8;">pub fn </span><span style="color:#4271ae;">value_from_type</span><span>(</span><span style="color:#f5871f;">args</span><span>: TokenStream, </span><span style="color:#f5871f;">input</span><span>: TokenStream) -&gt; TokenStream {
+</span><span>    println!(</span><span style="color:#718c00;">&quot;[BUILD] Running proc macro&quot;</span><span>);
+</span><span>    TokenStream::empty()
+</span><span>}
+</span></code></pre>
+<p>That’s a minimal code to get started writing a macro, let’s explain what each line does.<br />
+<code>#![feature(proc_macro)]</code> indicates to the compiler that we want to enable the
+procedural macro feature (dead link).<br />
+Note that <strong>BOTH</strong> the procedural macro crate <strong>AND</strong> the application crate <strong>MUST</strong> have this feature
+enabled for the macro to work.</p>
+<blockquote>
+<p>Following the above link will guide you to the -Unstable Book- containing lots of information about nightly
+compiler features. It’s a good read for more advanced Rustaceans.</p>
+</blockquote>
+<p>The next lines, starting with <code>extern crate</code>, should be obvious. We explicitly import our dependancy crates
+to be used in our own code. In this case the crate ‘proc_macro’ is imported, which is made available by the
+compiler because we’re targetting to build a procedural macro.<br />
+The <code>use</code> statement simply re-imports the TokenStream item into our current module.</p>
+<p>Our macro is called <code>value_from_type</code>, which matches the identifier of the method exactly. This is important
+because there is <strong>NO</strong> other way to name our procedural macro.<br />
+It’s attribute <code>#[proc_macro_attribute]</code> registers the method, so it’s called when the attribute is <em>resolved</em>.<br />
+The method takes two arguments, both typed <code>TokenStream</code>, which is an agreed upon interface for each procedural
+macro attribute. <code>args</code> contains the arguments passed into the attribute call. <code>input</code> contains code from
+the subject, this is the code attached to the attribute.</p>
+<p>This macro method does exactly one thing, printing to the standard outstream when it’s executed. You’ll see
+this message printed by the compiler, on the standard outstream, when the procedural macro attribute is
+used within application code.</p>
+<h2 id="attribute-arguments">Attribute arguments</h2>
+<p>Procedural macro attributes are attached to <a rel="noopener" target="_blank" href="https://docs.rs/syn/0.12/syn/enum.Item.html">Items</a>. Note that Item is
+used here in syntactic context. A Struct, Enum or Method are Items, even a Module like the example below.<br />
+When attaching an attribute to an Item you can pass it one or more arguments. The arguments could be anything
+actually because we’re responsible of parsing them ourselves.<br />
+Taking it to the extreme we could even write Rust code as an argument to our attribute macro!</p>
+<pre data-lang="rust" style="background-color:#ffffff;color:#4d4d4c;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#999999;">// Here we are calling the macro value_from_type with arguments `arg1, arg2, arg3`
+</span><span>#[</span><span style="color:#c82829;">value_from_type</span><span>(arg1, arg2, arg3)]
+</span><span style="color:#8959a8;">mod </span><span>item_mod {}
+</span><span>
+</span><span style="color:#999999;">// Here we are calling the macro value_from_type with arguments `&quot;1=Monkey | name=Barry&quot;`
+</span><span style="color:#999999;">// 
+</span><span style="color:#999999;">// Note the difference in attribute placement, this form is equivalent to the previous example
+</span><span style="color:#999999;">// but here we used an INNER ATTRIBUTE.
+</span><span style="color:#8959a8;">mod </span><span>item_mod_2 {
+</span><span>	</span><span style="color:#999999;">// Note &#39;#!&#39; at the start of the line
+</span><span>    #![</span><span style="color:#c82829;">value_from_type</span><span>(1</span><span style="color:#3e999f;">=</span><span>Monkey | name</span><span style="color:#3e999f;">=</span><span>Barry)]
+</span><span>}
+</span></code></pre>
+<p>As you can see, anything can be passed down as argument, as long as you are able to
+parse it.</p>
+<h2 id="attribute-input">Attribute input</h2>
+<p>The input of a procedural macro attribute is the Item attached to it. The compiler will check for syntax errors and
+pass the entire Item into the macro method. This means that the original code is effectively removed from the
+file during compilation.<br />
+It’s expected from the attribute macro to transform the input and return a some output back into the compiler.
+Most of the time it’s desired that the input is copied into the output.</p>
+<p>There is ONE important detail; invoked macro attributes are removed from the input! This is important to make sure that
+the macro expansion process is <strong>finite</strong>.</p>
+<pre data-lang="rust" style="background-color:#ffffff;color:#4d4d4c;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#999999;">// Our attribute value_from_type is linked to Item item_mod
+</span><span>#[</span><span style="color:#c82829;">value_from_type</span><span>()]
+</span><span style="color:#999999;">// The entire module code, including the mod keyword and braces, is passed 
+</span><span style="color:#999999;">// into the macro value_from_type as input
+</span><span style="color:#999999;">// &lt;--
+</span><span>    </span><span style="color:#8959a8;">mod </span><span>item_mod {
+</span><span>        </span><span style="color:#8959a8;">struct </span><span>Test;
+</span><span>    }
+</span><span style="color:#999999;">// --&gt;
+</span></code></pre>
+<p>This example shows what’s effectively being passed into the macro as input. Note that this scenario is similar when using
+inner attributes.</p>
+<h1 id="procedural-macro-usage">Procedural macro usage</h1>
+<p>Let’s continue with the provided macro method example since I haven’t explained what <code>TokenStream::empty()</code> means.<br />
+As mentioned earlier the compiler will pass down the code of the Item attached to the attribute being executed as input.
+The macro method is expected to return Rust code to replace what was originally passed as input argument.<br />
+As for the example, it’s actually returning nothing (= no code). This results in all attributed code to disappear during compilation.</p>
+<p>“But what is a TokenStream exactly?”, you might ask. To explain this I need to start with
+how modern compilers work. As you might have figured there are a lot of steps necessary
+to transform some code into machine instructions. To not reinvent the wheel every time
+another language or system platform is built modern compilers are seperated into a
+‘frontend’ and ‘backend’ system. The frontend is responsible for processing the
+programming language and transforming it into some intermediate format. The backend will
+transform that intermediate format into the desired machine code. All components of the
+compiler are free to analyze and manipulate it’s data, but operations performed on
+the intermediate code representation can be in every context easily reused.<br />
+The Rust compiler (rustc) is actually a frontend of the compiler system, with LLVM as
+as backend component for generating machine code. The intermediate code representation
+is LLVM IR in this case.</p>
+<p>Back to TokenStream then, it’s basically an intermediate representation between rustc
+and procedural macros. This approach of processing and returning TokenStreams was chosen
+because rustc internally makes use of these tokens because they represent the Abstract
+Syntax Tree (AST). The AST-data is produced by parsing Rust code.<br />
+Exposing an intermediate representation allows the rustc developers to limit exposure
+of the compiler internals to procedural macros. Allowing procedural macros to straight up
+use internal compiler code would constraint developers from making breaking changes to
+the compiler. This would break all existing procedural macros.</p>
+<h1 id="building-the-macro">Building the macro</h1>
+<p>The next step is to actually write code inside the macro method. Of course we want our macro attribute to do something
+useful, that’s why in the next post I’ll describe how and why my <code>value_from_type</code> macro works.</p>
+<p>Happy hacking!</p>
+
+    </div>
+
+    
+    
+
+    <div class="post-footer">
+        
+            
+                <div class="post-tags">
+                    
+                        <a href="https://bert.proesmans.eu/tags/procedural-macros/">#Procedural macros</a>
+                    
+                </div>
+            
+            
+                <div class="post-nav">
+                    
+                        <a class="previous" href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;updated-the-about-page&#x2F;">‹ About-page updates</a>
+                    
+                    
+                        <a class="next" href="https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;procedural-macros-in-rust&#x2F;">Procedural macros in Rust ›</a>
+                    
+                </div>
+            
+
+        
+
+    </div>
+
+    
+    
+</article>
+
+
+                </div>
+            </main>
+
+            
+            
+        </div>
+
+      
+          <script type="text/javascript" src="https://bert.proesmans.eu/even.js" ></script>
+      
+    </body>
+
+</html>

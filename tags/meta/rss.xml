@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Bert Proesmans - Meta</title>
+      <link>https://bert.proesmans.eu</link>
+      <description>Presence on the internet is a must?</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://bert.proesmans.eu/tags/meta/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 13 Mar 2021 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>About-page updates</title>
+          <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://bert.proesmans.eu/updated-the-about-page/</link>
+          <guid>https://bert.proesmans.eu/updated-the-about-page/</guid>
+          <description xml:base="https://bert.proesmans.eu/updated-the-about-page/">&lt;p&gt;This website has been up for a long time and it still attracts readers from across the globe. Why or how is beyond me, but it’s certain that some updates are required. I’m still in awe of how fast pages of this website load, that’s nice!&lt;&#x2F;p&gt;
+&lt;p&gt;The last update happened in December 2018 which moved the website to my own domain. The last content update was made in early 2018. Man, that’s already a long time ago!&lt;br &#x2F;&gt;
+I’m for sure not a student anymore, hehe.&lt;&#x2F;p&gt;
+&lt;p&gt;At this point in time I updated the &lt;a href=&quot;https:&#x2F;&#x2F;bert.proesmans.eu&#x2F;about&#x2F;&quot;&gt;about-page&lt;&#x2F;a&gt;, website title, configuration and yeeted the Jeckyll static site framework. Basically, I made a new site…&lt;br &#x2F;&gt;
+At some point in the future, I’d like to do an iteration on the old site design to bring it back in a modern jacket. Keep an eye out for that update!&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

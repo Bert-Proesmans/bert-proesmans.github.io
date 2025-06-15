@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Bert Proesmans - Oneplus X</title>
+      <link>https://bert.proesmans.eu</link>
+      <description>Presence on the internet is a must?</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://bert.proesmans.eu/tags/oneplus-x/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>I want a small Android phone</title>
+          <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://bert.proesmans.eu/i-want-a-small-android-phone/</link>
+          <guid>https://bert.proesmans.eu/i-want-a-small-android-phone/</guid>
+          <description xml:base="https://bert.proesmans.eu/i-want-a-small-android-phone/">&lt;p&gt;Thoughts have been put into words. AMEN&lt;br &#x2F;&gt;
+The plea is concise, elegant, well written. Maybe a bit unreasonable…&lt;&#x2F;p&gt;</description>
+      </item>
+      <item>
+          <title>I love my Oneplus X! I need a new smartphone</title>
+          <pubDate>Tue, 10 Aug 2021 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://bert.proesmans.eu/i-need-a-new-smartphone/</link>
+          <guid>https://bert.proesmans.eu/i-need-a-new-smartphone/</guid>
+          <description xml:base="https://bert.proesmans.eu/i-need-a-new-smartphone/">&lt;p&gt;I’m pretty satisfied with my current smartphone. But “current” is too much of a stretch, so now I’m looking for a replacement.&lt;&#x2F;p&gt;</description>
+      </item>
+    </channel>
+</rss>

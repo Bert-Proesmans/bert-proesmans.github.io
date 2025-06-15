@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Bert Proesmans - IPA</title>
+      <link>https://bert.proesmans.eu</link>
+      <description>Presence on the internet is a must?</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://bert.proesmans.eu/tags/ipa/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Proesmans? What&#x27;s that</title>
+          <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://bert.proesmans.eu/proesmans-whats-that/</link>
+          <guid>https://bert.proesmans.eu/proesmans-whats-that/</guid>
+          <description xml:base="https://bert.proesmans.eu/proesmans-whats-that/">&lt;p&gt;The world is actually well connected, at least if you’re using the internet. My virtual personna through which I experience internet adventures has my real name attached. It’s the same name that sometimes causes funny pronounciations and confusion.&lt;&#x2F;p&gt;</description>
+      </item>
+    </channel>
+</rss>

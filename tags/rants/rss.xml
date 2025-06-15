@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Bert Proesmans - Rants</title>
+      <link>https://bert.proesmans.eu</link>
+      <description>Presence on the internet is a must?</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://bert.proesmans.eu/tags/rants/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>I too enjoy making useless stuff</title>
+          <pubDate>Mon, 24 May 2021 18:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://bert.proesmans.eu/i-too-prefer-making-useless-stuff/</link>
+          <guid>https://bert.proesmans.eu/i-too-prefer-making-useless-stuff/</guid>
+          <description xml:base="https://bert.proesmans.eu/i-too-prefer-making-useless-stuff/">&lt;p&gt;This post is a short response to &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;web.eecs.utk.edu&#x2F;~azh&#x2F;blog&#x2F;makinguselessstuff.html&quot;&gt;Why I prefer making useless stuff&lt;&#x2F;a&gt; by Austin Henley.
+This guy builds! A hacker in pure form.&lt;&#x2F;p&gt;</description>
+      </item>
+    </channel>
+</rss>
