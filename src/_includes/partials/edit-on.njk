@@ -2,7 +2,7 @@
   <hr />
   <p class="text-step-min-1">
     {{ meta[page.lang].blog.githubEdit }}
-    <a href="{{ meta.viewRepo.repoUrl | url | replace('.git', '/tree/main/') }}{{ page.inputPath }}"
+    <a href="{{ meta.viewRepo.repoUrl | url }}/tree/{{ meta.viewRepo.branchName | url }}/{{ page.inputPath }}"
       >{{ meta.viewRepo.infoText }}</a
     >.
   </p>

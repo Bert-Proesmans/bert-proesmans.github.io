@@ -81,7 +81,8 @@ export const tests = {
 export const viewRepo = {
   // this is for the view/edit on github link. The value in the package.json will be pulled in.
   allow: true,
-  repoUrl: 'https://github.com/Bert-Proesmans/nix.git',
+  repoUrl: 'https://github.com/Bert-Proesmans/bert-proesmans.github.io',
+  branchName: 'pages',
   infoText: 'View this page on GitHub'
 };
 export const easteregg = false;
