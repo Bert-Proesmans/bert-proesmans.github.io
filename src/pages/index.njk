@@ -1,0 +1,49 @@
+---
+layout: base
+permalink: index.html
+title: 'Bert Proesmans'
+description: 'Presence on the internet is a must?'
+---
+
+<div class="wrapper">
+  <header class="full | section" style="--spot-color: var(--color-primary)">
+    <div class="section__inner flow region">
+      <h1 class="text-center" style="color: var(--color-light);">Nice to meet you</h1>
+    </div>
+    {% svg "divider/waves", null, "divider" %}
+  </header>
+  
+  <article class="full | region">
+    <div class="prose wrapper flow">
+      <h2>Hi, I'm Bert!</h2>
+      <p>
+        Resident tech-helpdesk for family and friends, and also computer <sparkly-text number-of-sparkles="3" style="--sparkly-text-color: var(--color-primary)">expert</sparkly-text> (self-proclaimed)!
+      </p>
+
+      <p>
+        Maybe we share a common interest? Read <a href="/about/">more about me</a> to get a glimpse into my background and thoughts, 
+        or send me <a href="mailto:bert@proesmans.eu?subject=Hello!">an e-mail</a> to reach out!<br/>
+        There is always a non-zero chance we'll meet each other one day, either in person or through the <sparkly-text number-of-sparkles="4" style="--sparkly-text-color: var(--color-primary); --sparkly-rainbow: true">magic</sparkly-text> of the internet.
+      </p>
+    </div>
+  </article>
+  
+  <section class="full | region">
+    <div class="prose wrapper flow">
+      <h2>Recent blog posts</h2>
+      <p>
+      Topics encompass hobbies, professional work, and (potentially random) interesting facts.<br/>
+      The four most recent blog posts are listed below. View all posts <a href="/blog/">here</a>.
+      </p>
+      <div class="feature |  region region-space-l">
+      <custom-masonry layout="50-50">
+          {% set itemList = collections.allPosts %}
+                  {% asyncEach item in itemList.slice(0, 4) %}
+          {% set headingLevel = "h3" %}
+                      {% include "partials/card-blog.njk" %}
+                  {% endeach %}
+      </custom-masonry>
+      </div>
+    </div>
+  </section>
+</div>

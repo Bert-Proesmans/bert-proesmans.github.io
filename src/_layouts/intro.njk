@@ -1,0 +1,14 @@
+---
+layout: base
+---
+
+<div class="wrapper">
+  <article class="region wrapper flow prose" style="--region-space-top: var(--space-xl-2xl)">
+    <h1 class="gradient-text">{{ title }}</h1>
+    {{ content | safe }}
+  </article>
+</div>
+
+{%- if no_back_to_top != true -%}
+  <custom-back-to-top></custom-back-to-top>
+{%- endif %}

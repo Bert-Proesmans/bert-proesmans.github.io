@@ -1,0 +1,4 @@
+<script src="{% getBundleFileUrl "js", "defer" %}" type="module"></script>
+
+{% set assetHash = helpers.random() %}
+<script type="module" src="/assets/scripts/components/sparkly-text.js?{{ assetHash }}"></script>
