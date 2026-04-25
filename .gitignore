@@ -1,0 +1,11 @@
+node_modules
+.cache
+.env
+!.github
+
+# generated files
+dist
+src/_includes/css
+src/_includes/scripts
+src/assets/og-images
+
