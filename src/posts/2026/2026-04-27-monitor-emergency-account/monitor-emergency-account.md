@@ -3,7 +3,6 @@ title: "How I monitor my emergency account"
 description: "ALERT! Break glass to proceed"
 
 date: 2026-04-28
-draft: true
 
 tags: ["Microsoft", "Entra", "Security"]
 ---
