@@ -37,6 +37,8 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+      - name: Install fonts
+        run: mkdir --parents ~/.local/share/fonts && find src/assets/fonts -type f -exec cp {} ~/.local/share/fonts/ \;
       - name: 'Build site to ./dist'
         run: npm run build
       - name: Upload artifact
