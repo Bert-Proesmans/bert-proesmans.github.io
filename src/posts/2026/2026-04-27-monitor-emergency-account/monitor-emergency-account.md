@@ -21,7 +21,7 @@ Yes, turns out this is one of those balancing acts. A completely secure system c
 I'm not saying you should have an emergency account, but if you have to have it[^layers] then you better watch very closely who is using it.
 
 [^layers]:
-  This is what the industry calls "security through layers". Friction is added to the process when perfect security is unworkable in practice.
+    This is what the industry calls "security through layers". Friction is added to the process when perfect security is unworkable in practice.
 
 
 ## Keeping watch
