@@ -1,23 +1,31 @@
 ---
-title: "How I monitor my emergency account"
-description: "ALERT! Break glass to proceed"
+title: "Use Microsoft Defender to monitor your break-glass account"
+description: "EMERGENCY! Break glass to proceed"
 
 date: 2026-04-28
+updated: 2026-04-30
 
 tags: ["Microsoft", "Entra", "Security"]
 ---
 
-Every guide for improving your cybersecurity posture will suggest configuring an exception into all your security policies for an emergency (break-glass) account. This emergency account exists, with some type of administrator privilege, to undo changes that lock people out of a system. This approach falls in line with the process of having a backup, but for accounts instead of data.
+Every guide for improving cybersecurity posture will instruct you to create a separate single-purpose account for emergency interventions (break-glass situation). This break-glass account is granted privileges on the level of system owner (or super administrator). This is useful to have in case administrators make a mistake and lock themselves out, or to fix havoc caused by unauthorized third parties. Think of it like having a backup of your data, except this is about privileges not data.
 
-The combination of a highly priviledged account being exluded from security policies.. feels icky. The existence of this account is more like a security disaster instead of a good practice. Like an open backdoor that thieves can use to enter your house, while the front door is a very nice one with all security bells and whistles.  
-If we have to have this backdoor[^emergency_account], then we better watch very closely who is using it.
+Obviously the sign-in details of this account, being privileged to change anything in your system, needs to be kept safe to prevent misuse. But those same guides will also tell you to exclude this account from all your security policies.  
 
-[^emergency_account]:
-    Administrators can make mistakes and lock themselves out of the system, there is also the risk of a hacker disabling access for all administrators. A magical emergency account is often the only way to restore systems to operational state.
+## Excuse me, what?
+
+A highly priviledged account being exluded from security policies.. feels icky! Why do I secure my front door with all the bells and whistles but leave the backdoor unlocked? Thieves could easily enter my house! This situation sounds more like a security disaster instead of good practice.
+
+Yes, turns out this is one of those balancing acts. A completely secure system cannot be recovered when (not if) something goes awry. In a company setting the risks are not only external (external hackers), but you have to consider your own employees breaking stuff too (intentional or not).
+I'm not saying you should have an emergency account, but if you have to have it[^layers] then you better watch very closely who is using it.
+
+[^layers]:
+  This is what the industry calls "security through layers". Friction is added to the process when perfect security is unworkable in practice.
+
 
 ## Keeping watch
 
-If you have an important door, you want to be certain who, when and if that door opened. A security camera and an open-sensor provide this information. The same logic applies to an account system.
+If you have an important door, you want to be certain who, when and if that door opened. A security camera in front of the door and a physical door-sensor provide this information. The same logic applies to an account system.
 A succesful login on your account triggers a sensor and immediately sends out a notification.  
 You'll have encountered this if you have a Google/GMail account; for every new login on an unknown device[^unknown_device] you receive a phone notification and email (also on your recovery email address). A new succesful login is a very important signal in the context of security. This system just works for all accounts, no special setup required, and I think Google does a good job in this instance!
 
