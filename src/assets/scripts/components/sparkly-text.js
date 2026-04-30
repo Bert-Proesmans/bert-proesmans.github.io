@@ -18,6 +18,7 @@ class SparklyText extends HTMLElement {
       --_sparkle-base-animation-length: var(--sparkly-text-animation-length, 1.5s);
       --_sparkle-base-color: var(--sparkly-text-color, #4ab9f8);
 
+      display: inline-block;
       position: relative;
       z-index: 0;
     }
