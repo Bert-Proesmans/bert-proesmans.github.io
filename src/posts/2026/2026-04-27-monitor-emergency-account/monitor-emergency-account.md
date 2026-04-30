@@ -1,6 +1,7 @@
 ---
 title: "Use Microsoft Defender to monitor your break-glass account"
 description: "EMERGENCY! Break glass to proceed"
+redirect_from: ["blog/how-i-monitor-my-emergency-account"]
 
 date: 2026-04-28
 updated: 2026-04-30
