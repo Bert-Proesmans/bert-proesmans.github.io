@@ -1,7 +1,7 @@
-node_modules
-.cache
-.env
 !.github
+
+# Node modules
+node_modules
 
 # generated files
 dist
@@ -9,3 +9,8 @@ src/_includes/css
 src/_includes/scripts
 src/assets/og-images
 
+# cache
+.cache
+
+# secret data
+.env

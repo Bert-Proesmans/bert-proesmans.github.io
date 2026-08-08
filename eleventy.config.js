@@ -12,10 +12,10 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // add yaml support
-import yaml from 'js-yaml';
+import {load as yamlLoad} from 'js-yaml';
 
 //  config import
-import { getAllPosts, showInSitemap, tagList } from './src/_config/collections.js';
+import {getAllPosts, showInSitemap, tagList} from './src/_config/collections.js';
 import events from './src/_config/events.js';
 import filters from './src/_config/filters.js';
 import plugins from './src/_config/plugins.js';
@@ -71,11 +71,11 @@ export default async function (eleventyConfig) {
   });
 
   // ---------------------  bundle
-  eleventyConfig.addBundle('css', { hoist: true });
+  eleventyConfig.addBundle('css', {hoist: true});
 
   // 	--------------------- Library and Data
   eleventyConfig.setLibrary('md', plugins.markdownLib);
-  eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents));
+  eleventyConfig.addDataExtension('yaml', contents => yamlLoad(contents));
 
   // --------------------- Filters
   eleventyConfig.addFilter('toIsoString', filters.toISOString);
